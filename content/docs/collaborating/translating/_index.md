@@ -1,6 +1,7 @@
 ---
 title: "Translating"
 weight: 2
+draft: true
 ---
 # Translating
 
