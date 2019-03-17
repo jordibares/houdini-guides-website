@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Phylosophy"
+weight: 2
 
-categories: ["Book", "Chapter"]
+categories: ["Book", "General Concepts"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Phylosophy
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

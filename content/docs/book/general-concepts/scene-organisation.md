@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Scene Organisation"
+weight: 3
 
-categories: ["Book", "Chapter"]
+categories: ["Book", "General Concepts"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Scene Organisation
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

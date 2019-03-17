@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Camera"
+weight: 4
 
-categories: ["Book", "Chapter"]
+categories: ["Book", "General Concepts"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Camera
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

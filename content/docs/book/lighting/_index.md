@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Lighting"
+weight: 6
 
 categories: ["Book", "Chapter"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Lighting
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Color Management"
+weight: 5
 
-categories: ["Book", "Chapter"]
+categories: ["Book", "General Concepts"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Color Management
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

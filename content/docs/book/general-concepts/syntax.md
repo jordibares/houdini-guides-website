@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Syntax"
+weight: 6
 
-categories: ["Book", "Chapter"]
+categories: ["Book", "General Concepts"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Syntax
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

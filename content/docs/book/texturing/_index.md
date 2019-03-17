@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Texturing"
+weight: 3
 
 categories: ["Book", "Chapter"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Texturing
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Digital Assets"
+weight: 8
 
 categories: ["Book", "Chapter"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Digital Assets
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

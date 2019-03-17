@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Compositing"
+weight: 10
 
 categories: ["Book", "Chapter"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Compositing
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

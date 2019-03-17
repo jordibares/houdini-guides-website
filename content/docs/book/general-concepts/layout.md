@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
+title: "Interface Layout"
 weight: 1
 
-categories: ["Book", "Chapter"]
+categories: ["Book", "General Concepts"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Interface Layout
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

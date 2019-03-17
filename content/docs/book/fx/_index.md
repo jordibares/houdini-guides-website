@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "FX"
+weight: 7
 
 categories: ["Book", "Chapter"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# FX
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

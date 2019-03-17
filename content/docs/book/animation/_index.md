@@ -1,5 +1,5 @@
 ---
-title: "General Concepts"
+title: "Animation"
 weight: 1
 
 categories: ["Book", "Chapter"]
@@ -7,7 +7,7 @@ tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Animation
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

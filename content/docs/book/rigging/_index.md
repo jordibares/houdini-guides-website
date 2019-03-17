@@ -1,13 +1,13 @@
 ---
-title: "General Concepts"
-weight: 1
+title: "Rigging"
+weight: 5
 
 categories: ["Book", "Chapter"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
-# General Concepts
+# Rigging
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

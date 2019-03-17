@@ -1,8 +1,13 @@
 ---
-title: "User Interface"
-weight: 2
+title: "Data Management"
+weight: 9
+
+categories: ["Book", "Chapter"]
+tags: ["All Versions"]
+
+writer: "Jordi Bares"
 ---
-# User Interface
+# Data management
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 
