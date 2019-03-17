@@ -26,4 +26,6 @@ And yes, I would be deligted you help us in any shape or form, from;
 4. Supporting our hosting with money
 5. Translation to other languages
 
+---
+
 Jordi Bares
