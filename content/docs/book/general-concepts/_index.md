@@ -9,9 +9,34 @@ writer: "Jordi Bares"
 ---
 # General Concepts
 
-## Tetigisse hac duc omnipotens urbis per sapiente
+Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.
 
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui *quid*, ignes.
-Miseratus fonte Ditis conubia.
+## UI interface layout
+
+_to do_
+
+
+## Houdini phylosophy
+
+_to do_
+
+
+## Scene organisation
+
+_to do_
+
+
+## Camera
+
+_to do_
+
+
+## Color Management
+
+_to do_
+
+
+## Syntax
+
+_to do_
+

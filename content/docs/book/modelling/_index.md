@@ -10,9 +10,12 @@ writer: "Jordi Bares"
 ---
 # Modelling
 
-## Tetigisse hac duc omnipotens urbis per sapiente
+## Traditional modelling
 
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui *quid*, ignes.
-Miseratus fonte Ditis conubia.
+_to do_
+
+
+## Procedural modelling
+
+_to do_
+
