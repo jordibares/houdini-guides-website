@@ -1,9 +1,10 @@
 ---
 title: "Rigging"
 weight: 5
+draft: true
 
 categories: ["Book", "Chapter"]
-tags: ["All Versions"]
+tags: ["H17.5"]
 
 writer: "Jordi Bares"
 ---

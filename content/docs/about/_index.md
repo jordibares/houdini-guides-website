@@ -9,8 +9,8 @@ During 2008 Autodesk bought their arch-rivals, Softimage and included in their a
 I saw the writing on the all the moment Autodesk bought Softiamge so I did transition first and all my learnings became invaluable once Autodesk killed Softimage which prompt me to write a free book called [Houdini to Softimage transition guides](https://www.sidefx.com/tutorials/softimage-to-houdini-transition-guide/) that was distributed freely thanks to the nice folks at Side Effects.
 
 
-# Collaborators
+# Moderator
 
 ## Jordi Bares
 
-With over 24 years experience and having been involved in some of the most awarded commercials of all time, Houdini Guides is his baby.
+The original author of the guides and main driving force of this particular effort, if something goes wrong, it is his fault.

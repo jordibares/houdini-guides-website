@@ -5,6 +5,6 @@ weight: 1
 
 # Introduction
 
-frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui *quid*, ignes.
-Miseratus fonte Ditis conubia.
+This book is structured as a guides to transition rather than a reference, and in particular, it is architected as a linear journey to move quickly throught the various areas to get a good global view of the software an translate those years of experience coming form Maya, Cinema4D or others as fast as possible.
+
+Some chapters will be very dense and further re-organisation will be required so please keep in mind, your bookmarks may easily be broken for most part of the first year.
