@@ -1,2 +1,3 @@
-# houdini-guides-website
-Houdini Guides Website
+# Houdini Guides Website
+
+An effort to bring Houdini to everyone.
