@@ -1,6 +1,6 @@
 ---
 title: "Book"
-weight: 1
+weight: 2
 ---
 
 # Introduction
