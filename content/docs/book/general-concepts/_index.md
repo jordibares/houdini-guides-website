@@ -33,7 +33,7 @@ And of course, a special mention should go to how a camera works in Houdini in r
 
 ## Color Management
 
-Furthermore, it is critical you set your color management right, for this reason we will also visit this section in particular as a reference.
+Furthermore, it is critical you set your color management right, for this reason we will also visit this section in particular as a reference explaining the various correct approaches and how to manipulate your textures to get the most of your render engine.
 
 
 ## Syntax

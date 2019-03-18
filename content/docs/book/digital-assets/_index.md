@@ -10,9 +10,23 @@ writer: "Jordi Bares"
 ---
 # Digital Assets
 
-## Tetigisse hac duc omnipotens urbis per sapiente
+## Introduction
 
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui *quid*, ignes.
-Miseratus fonte Ditis conubia.
+_to do_
+
+
+## Creating HDAs
+
+_to do_
+
+
+## Smart HDAs
+
+_to do_
+
+
+## Wrapping an HDA
+
+_to do_
+
+

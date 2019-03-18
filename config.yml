@@ -1,5 +1,5 @@
 baseURL: https://www.houdiniguides.com/
-title: HoudiniGuides
+title: Houdini Guides
 theme: book
 disableKinds: ["taxonomy", "taxonomyTerm"]
 # themesDir: ../..
@@ -30,9 +30,10 @@ params:
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: https://github.com/alex-shpak/hugo-book
+  BookRepo: https://github.com/jordibares/houdini-guides-website
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to 'content' directory of repo.
-  BookEditPath: edit/master/exampleSite/content
+  # BookEditPath: edit/master/exampleSite/content
+  BookEditPath: edit/master/houdini-guides-website/content

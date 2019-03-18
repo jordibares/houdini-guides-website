@@ -10,9 +10,23 @@ writer: "Jordi Bares"
 ---
 # Lighting
 
-## Tetigisse hac duc omnipotens urbis per sapiente
+## Types of lights
 
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui *quid*, ignes.
-Miseratus fonte Ditis conubia.
+_to do_
+
+
+## Real world lights
+
+_to do_
+
+
+## Environment lights
+
+_to do_
+
+
+## IES lights
+
+_to do_
+
+

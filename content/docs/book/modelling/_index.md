@@ -10,7 +10,17 @@ writer: "Jordi Bares"
 ---
 # Modelling
 
-## Traditional modelling
+## Hard surface modelling
+
+_to do_
+
+
+## Organic modelling
+
+_to do_
+
+
+## Retopology
 
 _to do_
 

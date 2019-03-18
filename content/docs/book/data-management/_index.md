@@ -10,9 +10,43 @@ writer: "Jordi Bares"
 ---
 # Data management
 
-## Tetigisse hac duc omnipotens urbis per sapiente
+## Introduction
 
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui *quid*, ignes.
-Miseratus fonte Ditis conubia.
+_to do_
+
+
+## Data passing
+
+_to do_
+
+
+## Data freeze
+
+_to do_
+
+
+## Data sources
+
+_to do_
+
+
+## Organisation
+
+_to do_
+
+
+## Scene reconstruction
+
+_to do_
+
+
+## Scene packaging
+
+_to do_
+
+
+## Alembic
+
+_to do_
+
+

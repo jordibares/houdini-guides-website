@@ -10,9 +10,23 @@ writer: "Jordi Bares"
 ---
 # Shading
 
-## Tetigisse hac duc omnipotens urbis per sapiente
+## Principled shader
 
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui *quid*, ignes.
-Miseratus fonte Ditis conubia.
+_to do_
+
+
+## Materials networks
+
+_to do_
+
+
+## AOVs
+
+_to do_
+
+
+## Material libraries strategies
+
+_to do_
+
+
