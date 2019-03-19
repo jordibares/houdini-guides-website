@@ -9,9 +9,17 @@ writer: "Jordi Bares"
 ---
 # Camera
 
-## Tetigisse hac duc omnipotens urbis per sapiente
+One of the first things you will notice is that the camera in Houdini, like every in every other package, is slightly different so here is a quick refresher.
 
-Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
-stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
-protulit, sed sed aere valvis inhaesuro Pallas animam: qui *quid*, ignes.
-Miseratus fonte Ditis conubia.
+---
+
+Maya            | Houdini           | Conversion formulas
+----------------|-------------------|--------------------------
+Focal Length    | Focal Length      | f = (d/2) * cot (a/2) where f is focal length in mm
+Camera Aperture | Aperture          | a = 2 * arctan (d/2*f) where d = film size in mm
+Angle of View   | -n/a-             | You will have to derive it from the previous formulas
+Film Offset     | Screen Window X/Y | 1 houdini unit = Aperture * (Maya)
+
+---
+
+Texting the formatting
