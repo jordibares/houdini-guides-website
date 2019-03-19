@@ -2,7 +2,7 @@
 title: "General Concepts"
 weight: 1
 
-categories: ["Book", "Chapter"]
+categories: ["Book", "Introduction"]
 tags: ["All Versions"]
 
 writer: "Jordi Bares"
