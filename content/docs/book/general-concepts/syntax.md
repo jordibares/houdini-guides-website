@@ -9,7 +9,12 @@ writer: "Jordi Bares"
 ---
 # Syntax
 
-## Tetigisse hac duc omnipotens urbis per sapiente
+## Introduction
+
+Strings everywhere
+
+
+## Expressions
 
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
 stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
