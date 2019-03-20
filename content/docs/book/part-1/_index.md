@@ -3,7 +3,7 @@ title: "Part 1"
 weight: 1
 
 categories: ["Book", "Part"]
-tags: ["All Versions"]
+tags: ["17.0"]
 
 writer: "Jordi Bares"
 ---
@@ -13,18 +13,18 @@ Before we start with the details, it is important to build a foundation of key c
 
 ## Introduction
 
-Like
+In this section we are going to lay the foundations of the user interface, houdini phylosphy, how scenes should be organised, we are going to talk about the camera, color management and also the syntax of the various languages at your disposal.
 
 ## Modelling
 
-Houdini is not that different yet, it is another beast altogether if you don't get some fundamentals right, the same fundamentals that other packages hide from you, those are right. front and center in Houdini so we better get that right.
+Many may think Houdini is not a modeller but I can assure you is not bad at all, specially when combined with procedural modelling which gives a total new dimension that will probably justify the inconvenience of the more traditional tools being different from other packages.
 
 
 ## Texturing
 
-Once you get the phylosophy it should be easy to explore methods to organise your scene and your assets. Also, various conventions Houdini arists use that you will learn to love and that will speed up the adoption.
+Here we will talk about texture projections, UV, procedual UV generation and various techniques to extract the most value of Houdini.
 
 
 ## Shading
 
-And of course, a special mention should go to how a camera works in Houdini in respect to Maya, Max, Modo or Cinema 4D.
+And finally, we will be talkign about materials and shaders focusing exclusively on the new MAT context.
