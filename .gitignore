@@ -1,3 +1,4 @@
+# OS bsaed
 .DS_Store
 .DS_Store?
 ._*
@@ -10,3 +11,5 @@ backup
 # python compiled
 *.pyc
 
+# affinity photo
+*.afphoto
