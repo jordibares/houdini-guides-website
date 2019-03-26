@@ -1,6 +1,6 @@
 ---
 title: "Scene Organisation"
-weight: 3
+weight: 30
 
 categories: ["Book", "General Concepts"]
 tags: ["All Versions"]

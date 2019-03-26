@@ -1,6 +1,6 @@
 ---
 title: "Syntax"
-weight: 6
+weight: 70
 
 categories: ["Book", "General Concepts"]
 tags: ["All Versions"]

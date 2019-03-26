@@ -1,6 +1,6 @@
 ---
 title: "Camera"
-weight: 4
+weight: 50
 
 categories: ["Book", "General Concepts"]
 tags: ["All Versions"]

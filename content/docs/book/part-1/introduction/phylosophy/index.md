@@ -1,6 +1,6 @@
 ---
 title: "Phylosophy"
-weight: 2
+weight: 20
 
 categories: ["Book", "General Concepts"]
 tags: ["All Versions"]

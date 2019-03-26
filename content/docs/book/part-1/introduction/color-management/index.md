@@ -1,6 +1,6 @@
 ---
 title: "Color Management"
-weight: 5
+weight: 60
 
 categories: ["Book", "General Concepts"]
 tags: ["All Versions"]
