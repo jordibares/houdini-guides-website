@@ -47,4 +47,3 @@ Indeed Houdini retopology tools are very good nowadays so this workflow is highl
 When dealing with the new retopo node you will notice that it is a one-big-fat-toolset in one single node so you feel in a similar place as when you use Maya, Modo or Cinema4D.
 
 The good thing is that you can still use procedural workflows and extract a lot more from it... will check this later.
-
