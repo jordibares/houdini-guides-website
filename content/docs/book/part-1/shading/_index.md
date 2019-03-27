@@ -1,6 +1,6 @@
 ---
 title: "Shading"
-weight: 4
+weight: 40
 draft: true
 
 categories: ["Book", "Chapter"]

@@ -1,6 +1,6 @@
 ---
 title: "General Concepts"
-weight: 1
+weight: 10
 
 categories: ["Book", "Introduction"]
 tags: ["All Versions"]

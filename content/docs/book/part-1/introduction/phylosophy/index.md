@@ -30,6 +30,8 @@ In terms of manipulation, think of Houdini as an operating system built on the i
 
 The various context represent relationships and other things in a similar fashion but don't be mistaken, in particular with DOPs, where the network does not describe flow of data but rather relationships.
 
+This is something I will be describing further on each particular chapter.
+
 
 ## Houdini as a programing language
 
