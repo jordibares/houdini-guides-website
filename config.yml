@@ -1,3 +1,5 @@
+
+
 baseURL: https://www.houdiniguides.com/
 title: Houdini Guides
 theme: book
@@ -8,10 +10,11 @@ disableKinds: ["taxonomy", "taxonomyTerm"]
 disablePathToLower: true
 enableGitInfo: true
 
-params:
-  # Configure the date format utilised on the pages
-  DateFormat: "2 January 2006 15:04 MST"
+# Code highlight
+pygmentsStyle: monokailight
+pygmentsCodeFences: true
 
+params:
   # (Optional, default true) Show or hide table of contents globally
   # You can also specify this parameter per page in front matter
   BookShowToC: true
@@ -38,5 +41,9 @@ params:
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to 'content' directory of repo.
-  # BookEditPath: edit/master/exampleSite/content
   BookEditPath: edit/master/content
+
+  # Configure the date format used on the pages
+  # - In git information
+  # - In blog posts
+  BookDateFormat: "2 January 2006, 15:04 MST"
