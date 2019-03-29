@@ -11,10 +11,13 @@ writer: "Jordi Bares"
 
 Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.
 
+<br/>
+
 ## Data Management
 
 Like
 
+<br/>
 
 ## Digital Assets
 

@@ -8,6 +8,7 @@ The information architecture, writting standards and technical infrastructure re
 
 For this reason I have assembled some basic rules to follow.
 
+<br/>
 
 ## Configuring git in your local machine
 
@@ -15,16 +16,19 @@ The general workflow is to keep updating [git repository](https://github.com/jor
 
 This means that you fork the repository, write all you want, modify all you want and then do a pull request so your updates can be monitored and incorporated on the main repository.
 
+<br/>
 
 ## Writting with markdown instead of html
 
 [Hugo](https://gohugo.io), the underlying static website cretoion technology utilised in by Houdini Guides relies on BlackFriday markdown processor so it is important you get familiar with it by reading [Peter's blog markdown reference](https://notes.peter-baumgartner.net/archive/content-organisation/blackfriday-markdown/)
 
+<br/>
 
 ## Writting style guide
 
 How we speak is critical to communicate effectively, therefore we are going to revisit how to write by approaching the voice, tone and style, hopefully we can produce a coherent book that everyone can enjoy.
 
+<br/>
 
 ## Screen Recording standards
 

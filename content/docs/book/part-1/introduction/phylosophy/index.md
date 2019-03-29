@@ -13,6 +13,7 @@ A quick recap on Houdini's phylosophy from my humble point of view, it is all ab
 
 As such, proceduralism in the most theorical way is truly elusive and I would suggest not to get fixated to be *perfect* but rather coherent and scalable. Ultimately, if the tools you build are truly useful they will get used and maintained, they will grow and demand more effort until you really have an elegant solution that is abstract enough.
 
+<br/>
 
 ## External everything
 
@@ -20,11 +21,13 @@ Houdini relies massively on external data, loading geometry, textures, animation
 
 A good example of this comes when you are modelling and the paranoia some new users get into to actually "freeze" the changes, any seasoned Houdini artist will be in shock you are even trying, instead, save it to disk and load it back!
 
+<br/>
 
 ## Attributes and more Attributes
 
 In terms of manipulation, think of Houdini as an operating system built on the idea of manipulating attributes on your objects. UVs are attributes, geometry, custom data of all sorts... ultimately that is all you are doing, conciously or not.
 
+<br/>
 
 ## Networks describe many things
 
@@ -32,6 +35,7 @@ The various context represent relationships and other things in a similar fashio
 
 This is something I will be describing further on each particular chapter.
 
+<br/>
 
 ## Houdini as a programing language
 
