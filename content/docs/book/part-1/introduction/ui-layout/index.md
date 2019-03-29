@@ -16,12 +16,15 @@ Like every single DCC application, Houdini's structure consists on a viewport, a
 
 The main difference is that the working area is not an outliner or hierarchical represenatation of the scene, but rather a graphical represenatation of it and the varoius contexts availalbe (more on that later) produce variations of this working area.
 
+<br/>
+
 ## Components
 
 These are the main components of the interface;
 
 ![UI Components][2]
 
+<br/>
 
 ### 1 - Viewport aka Scene View
 

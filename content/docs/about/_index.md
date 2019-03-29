@@ -8,9 +8,10 @@ The intention is to create the kind of guides we users want to pass to our frien
 
 For this reason a bunch of us are putting some of our spare time to build these docs, these are the main culprits.
 
+<br/>
 
-# Moderator
+## Team
 
-## Jordi Bares
+### Jordi Bares
 
 The original author of the guides and main driving force of this particular effort, if something goes wrong, it is his fault.
