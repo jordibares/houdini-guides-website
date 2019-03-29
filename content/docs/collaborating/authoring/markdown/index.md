@@ -15,17 +15,14 @@ So, after many months testing and deciding I settled with a static web generator
 
 <br/>
 
+## Markdown guide
+
+Please read [John Gruber Markdown post](https://daringfireball.net/projects/markdown/syntax) to get an idea of the syntax of this version of markdown used by Hugo.
+
+<br/>
+
 ## Writting process
 
 The general idea is that you create a new post and write your text, include images and what not. This is later processed on publishing to generate pure HTML with some CSS and JS to bring some magic to the content.
 
 No databases, no special tokens nor plugings for easy authoring... fun right?
-
-<br/>
-
-## Markdown guide
-
-Please read [John Gruber Markdown post](https://daringfireball.net/projects/markdown/syntax)
-
-
-Let's try it then!

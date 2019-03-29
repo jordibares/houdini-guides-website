@@ -12,6 +12,8 @@ writer: "Jordi Bares"
 
 Modelling in Houdini is certainly getting better and better on every version and alhtough you will miss a few things from your favourite software (may be even more than just a few), the truth is that the full power comes when you mix both, traditional and procedural methods to build things.
 
+<br/>
+
 ## Procedural modelling
 
 Procedural modelling his the name applied to building techniques that rely on non-destructive behaviour and the ability to update values on the very beggining of your operation stack that flow down to your result.
@@ -26,6 +28,8 @@ When changes are requried, using the first method pretty much would mean to star
 
 This is the main reason we are seeing such an incredible adoptoin rate from the gaming industry, building huge worlds is no longer a linear function, by playing it clever you can really have a tiny tema building inmense environments, explore, test and reuse.
 
+<br/>
+
 ## Hard surface modelling
 
 Hard surface modelling in Houdini relies on polygons mostly but you have also really good NURBS and the possibility to convert from one to the other.
@@ -34,6 +38,7 @@ My favourity method is to start building NURBS curves and surfaces to later conv
 
 By doing this I can explore form without having to get into the technical elements straight away and once that is approved, moving into the detail is easier. Imagine a footballstadium, isn't better to approach the general form and explore at that level? Before starting with stairs? Why not use simple ramps? You get it.
 
+<br/>
 
 ## Organic modelling
 
@@ -41,6 +46,7 @@ When dealing with organic modelling you face similar questions as when you use M
 
 Indeed Houdini retopology tools are very good nowadays so this workflow is highly effective and my favourite route.
 
+<br/>
 
 ## Retopology
 
