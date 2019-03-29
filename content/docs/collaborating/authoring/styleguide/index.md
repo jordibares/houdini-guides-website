@@ -1,6 +1,11 @@
 ---
 title: "Styleguide"
-weight: 3
+weight: 30
+
+categories: ["Collaborating"]
+tags: ["Authoring", "Style"]
+
+writer: "Jordi Bares"
 ---
 # Style Guide
 

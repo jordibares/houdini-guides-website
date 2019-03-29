@@ -1,6 +1,11 @@
 ---
 title: "Markdown"
-weight: 2
+weight: 20
+
+categories: ["Collaborating"]
+tags: ["Authoring", "Markdown"]
+
+writer: "Jordi Bares"
 ---
 # Markdown
 

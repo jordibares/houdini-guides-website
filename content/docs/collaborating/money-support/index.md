@@ -1,7 +1,13 @@
 ---
 title: "Money Support"
-weight: 3
+weight: 30
+
 draft: true
+
+categories: ["Collaborating"]
+tags: ["Donor"]
+
+writer: "Jordi Bares"
 ---
 # Money Support
 

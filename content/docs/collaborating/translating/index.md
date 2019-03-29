@@ -1,7 +1,13 @@
 ---
 title: "Translating"
 weight: 2
+
 draft: true
+
+categories: ["Collaborating"]
+tags: ["Authoring", "Translation"]
+
+writer: "Jordi Bares"
 ---
 # Translating
 

@@ -1,6 +1,11 @@
 ---
 title: "Screen Recording"
-weight: 4
+weight: 40
+
+categories: ["Collaborating"]
+tags: ["Authoring"]
+
+writer: "Jordi Bares"
 ---
 # Screen Recording
 
