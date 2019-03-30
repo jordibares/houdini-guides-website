@@ -3,6 +3,8 @@ title: "StyleGuide Components"
 weight: 40
 bookShowToc: false
 
+draft: true
+
 categories: ["Collaborating"]
 tags: ["Authoring", "Style"]
 
