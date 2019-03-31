@@ -14,6 +14,9 @@ enableGitInfo: true
 pygmentsStyle: monokailight
 pygmentsCodeFences: true
 
+# Google Analytics ID - UA-137420586-1
+googleAnalytics: "UA-137420586-1"
+
 params:
   # (Optional, default true) Show or hide table of contents globally
   # You can also specify this parameter per page in front matter
