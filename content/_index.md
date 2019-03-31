@@ -26,7 +26,3 @@ But of course, Houdini is moving very very fast indeed and these guides are a bi
 ## You
 
 And yes, I would be deligted you help us in any shape or form, from writting to creating videos to translation or donations.
-
----
-
-Jordi Bares
