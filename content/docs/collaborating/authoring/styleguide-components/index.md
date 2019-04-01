@@ -1,6 +1,6 @@
 ---
 title: "StyleGuide Components"
-weight: 40
+weight: 50
 bookShowToc: false
 
 draft: true
