@@ -14,8 +14,6 @@ writer: "Jordi Bares"
 
 _to do_
 
-<br/>
-
 ## UV unwrapping
 
 _to do_

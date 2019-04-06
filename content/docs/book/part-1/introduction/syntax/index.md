@@ -13,8 +13,6 @@ writer: "Jordi Bares"
 
 Strings everywhere
 
-<br/>
-
 ## Expressions
 
 Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat

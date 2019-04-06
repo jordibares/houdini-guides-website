@@ -8,21 +8,15 @@ The information architecture, writting standards and technical infrastructure re
 
 For this reason I have assembled some basic rules to follow.
 
-<br/>
-
 ## Configuring git in your local machine
 
 The general workflow is to keep updating [git repository](https://github.com/jordibares/houdini-guides-website) stored at [github](https://github.com) using the fork/pull mechanism.
 
 This means that you fork the repository, write all you want, modify all you want and then do a pull request so your updates can be monitored and incorporated on the main repository.
 
-<br/>
-
 ## Writting with markdown instead of html
 
 [Hugo](https://gohugo.io), the underlying static website cretoion technology utilised in by Houdini Guides relies on BlackFriday markdown processor so it is important you get familiar with it by reading [Peter's blog markdown reference](https://notes.peter-baumgartner.net/archive/content-organisation/blackfriday-markdown/)
-
-<br/>
 
 ## Writting style guide
 
@@ -31,8 +25,6 @@ How we speak is critical to communicate effectively, therefore we are going to r
 Of course vanilla markdown is a bit boring, for this reason this website uses Bootstrap v4.3 to produce richer content. Please refer to [Bootsrap official documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/) for more information.
 
 I have compiled the key components we should ber using in the StyleGuide Components page.
-
-<br/>
 
 ## Screen Recording standards
 

@@ -20,11 +20,22 @@ These are the various header styles in the theme.
 
 ~~~
 # H1
+Text under header 1
+
 ## H2
+Some more text under header 2
+
 ### H3
+Funny text under header 3
+
 #### H4
+Text under header 4
+
 ##### H5
+Text under header 5
+
 ###### H6
+Finally, more text under header 6
 
 Alternatively, for H1 and H2, an underline-ish style:
 
@@ -36,11 +47,22 @@ Alt-H2
 ~~~
 
 # H1
+Text under header 1
+
 ## H2
+Some more text under header 2
+
 ### H3
+Funny text under header 3
+
 #### H4
+Text under header 4
+
 ##### H5
+Text under header 5
+
 ###### H6
+Finally, more text under header 6
 
 Alternatively, for H1 and H2, an underline-ish style:
 
@@ -50,7 +72,6 @@ Alt-H1
 Alt-H2
 ------
 
-<br />
 
 ## Text
 
@@ -60,7 +81,6 @@ It's very easy to make some words **bold** and other words *italic* with Markdow
 
 It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
 
-<br />
 
 ## Emphasis
 
@@ -82,7 +102,6 @@ Combined emphasis with **asterisks and _underscores_**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
-<br />
 
 ## Lists
 
@@ -124,8 +143,6 @@ Alternatively,
   - Like this
   - And this
 
-
-<br />
 
 ## Links
 
@@ -169,7 +186,6 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
-<br />
 
 ## Images
 
@@ -193,7 +209,6 @@ Reference-style:
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
-<br />
 
 ## Headers and quotes
 
@@ -226,7 +241,6 @@ If you'd like to quote someone, use the > character before the line:
 > Coffee. The finest organic suspension ever devised... I beat the Borg with it.
 > - Captain Janeway
 
-<br />
 
 ## Tables
 
@@ -262,7 +276,6 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
-<br />
 
 ## Quotes
 
@@ -284,7 +297,6 @@ Quote break.
 
 > This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
 
-<br />
 
 ## Inline HTML
 
@@ -308,7 +320,6 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
 
-<br />
 
 ## Code
 
@@ -365,7 +376,6 @@ if (isAwesome):
   return true
 ```
 
-<br />
 
 ## Extras
 

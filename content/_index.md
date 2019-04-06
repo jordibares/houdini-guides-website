@@ -3,11 +3,9 @@ title: Introduction
 type: docs
 ---
 
-![LogoMedium](img/artwork/houdini_guides__DARK_medium.png)
+<img class="logo" src="img/artwork/houdini_guides__DARK_medium.png" alt="Logo" width="765">
 
 The goal of this collective book is to help accelerate the adoption of Houdini as the main tool in VFX by simplifying the transition from other tools to Houdini.
-
-<br/>
 
 ## A bit of history
 
@@ -15,13 +13,10 @@ During 2008 Autodesk bought their arch-rivals, Softimage and included in their a
 
 I saw the writing on the all the moment Autodesk bought Softiamge so I did transition first and all my learnings became invaluable once Autodesk killed Softimage which prompt me to write a free book called "Houdini to Softimage transition guides" that was distributed freely thanks to the nice folks at Side Effects.
 
-<br/>
-
 ## Today
 
 But of course, Houdini is moving very very fast indeed and these guides are a bit obsolete, the task is huge so I am thinking on starting a crowd sourced re-write to fill update from scratch the whole thing.
 
-<br/>
 
 ## You
 

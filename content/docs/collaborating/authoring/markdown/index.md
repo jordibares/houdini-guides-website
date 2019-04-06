@@ -13,13 +13,9 @@ Markdown is a lightweight markup language with plain text formatting syntax. Its
 
 So, after many months testing and deciding I settled with a static web generator that utilises [Black Friday markdown](https://notes.peter-baumgartner.net/archive/content-organisation/blackfriday-markdown/) for all the writting.
 
-<br/>
-
 ## Markdown guide
 
 Please read [John Gruber Markdown post](https://daringfireball.net/projects/markdown/syntax) to get an idea of the syntax of this version of markdown used by Hugo.
-
-<br/>
 
 ## Writting process
 
