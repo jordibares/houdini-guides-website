@@ -17,7 +17,6 @@ I saw the writing on the all the moment Autodesk bought Softiamge so I did trans
 
 But of course, Houdini is moving very very fast indeed and these guides are a bit obsolete, the task is huge so I am thinking on starting a crowd sourced re-write to fill update from scratch the whole thing.
 
-
 ## You
 
 And yes, I would be deligted you help us in any shape or form, from writting to creating videos to translation or donations.

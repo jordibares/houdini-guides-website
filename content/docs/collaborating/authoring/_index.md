@@ -2,6 +2,7 @@
 title: "Authoring"
 weight: 1
 ---
+
 # Authoring
 
 The information architecture, writting standards and technical infrastructure required forces us to have a bit of a protocol in place so we can produce as if it was the hand of one single person writting.

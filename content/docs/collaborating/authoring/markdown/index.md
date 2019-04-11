@@ -7,6 +7,7 @@ tags: ["Authoring", "Markdown"]
 
 writer: "Jordi Bares"
 ---
+
 # Markdown
 
 Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats which is the crucial part for efficient authoring of content.
@@ -22,3 +23,5 @@ Please read [John Gruber Markdown post](https://daringfireball.net/projects/mark
 The general idea is that you create a new post and write your text, include images and what not. This is later processed on publishing to generate pure HTML with some CSS and JS to bring some magic to the content.
 
 No databases, no special tokens nor plugings for easy authoring... fun right?
+
+

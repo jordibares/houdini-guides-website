@@ -1,5 +1,3 @@
-
-
 baseURL: https://www.houdiniguides.com/
 title: Houdini Guides
 theme: book
@@ -56,4 +54,3 @@ params:
 
   # (Optional Copyright notice for footer)
   Copyright: ["&copy; 2019 Jordi Bares"]
-

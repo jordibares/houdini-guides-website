@@ -7,6 +7,7 @@ tags: ["17.0"]
 
 writer: "Jordi Bares"
 ---
+
 # Part 1
 
 Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.

@@ -7,6 +7,7 @@ tags: ["Authoring", "Git"]
 
 writer: "Jordi Bares"
 ---
+
 # Configuring Git
 
 The recommended approach is to fork the repository and do your chanes in there, once you are happy with your content to push it back to GitHub and do a Pull Request so I can merge your branch with the master one.
@@ -32,6 +33,7 @@ Now you will have a clone of your own version of the houdini-guides in your loca
 Create new posts using the correct structure like
 
 For example, to create a chapter on the animation part-2
+
 ```bash
 hugo new post book/part-2/animation/keyframing/index.md
 ```
@@ -56,11 +58,9 @@ Now go to the original [GitHub Houdinig Guides repository](https://github.com/jo
 
 ![Pull Request Menu][2]
 
-
 ## Checking the merge
 
 Please check the notes I may do on the pull request tab as I may need you to tweak things.
-
 
 ## Keeping up to date
 
@@ -68,6 +68,3 @@ Once I have merged those many branch changes (including yours) onto the main one
 
 [1]: config-git__1_menu.jpg
 [2]: config-git__2_pull-request.jpg
-
-
-

@@ -10,6 +10,7 @@ tags: ["Authoring", "Style"]
 
 writer: "Jordi Bares"
 ---
+
 # Bootstrap Components
 
 These are examples of the number of tools included in this theme by means of Bootstrap 4.3
@@ -45,7 +46,7 @@ These are examples of the number of tools included in this theme by means of Boo
 
 <br/>
 
-### Simple Alerts with links 
+### Simple Alerts with links
 
 <div class="alert alert-primary" role="alert">
   A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
@@ -72,7 +73,6 @@ These are examples of the number of tools included in this theme by means of Boo
   A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
 </div>
 
-
 <br/>
 
 ### Aditional Content
@@ -94,7 +94,6 @@ These are examples of the number of tools included in this theme by means of Boo
     <span aria-hidden="true">&times;</span>
   </button>
 </div>
-
 
 <br/>
 
@@ -216,7 +215,6 @@ These are examples of the number of tools included in this theme by means of Boo
 <input class="btn btn-primary" type="button" value="Input">
 <input class="btn btn-primary" type="submit" value="Submit">
 <input class="btn btn-primary" type="reset" value="Reset">
-
 
 <br/>
 
@@ -492,11 +490,9 @@ These are examples of the number of tools included in this theme by means of Boo
   </div>
 </div>
 
-
 <br/>
 
 ## Nav
-
 
 ### Simple Nav
 

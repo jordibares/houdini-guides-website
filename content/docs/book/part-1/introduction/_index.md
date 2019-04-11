@@ -7,6 +7,7 @@ tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
+
 # General Concepts
 
 Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.
@@ -38,6 +39,3 @@ Furthermore, it is critical you set your color management right, for this reason
 ## Syntax
 
 And last but not least, Houdini animals have their on syntax, meaning; when you use expressions, or the Vex language or attributes, these require you to know certain things. Let's explore the basics here so we can move fast later.
-
-
-
