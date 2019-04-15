@@ -1,0 +1,94 @@
+{{ $id := .Get "number" }}
+
+{{ $t1 := .Get "title1"}}
+{{ $t2 := .Get "title2"}}
+{{ $t3 := .Get "title3"}}
+{{ $t4 := .Get "title4"}}
+
+{{ $c1 := .Get "content1"}}
+{{ $c2 := .Get "content2"}}
+{{ $c3 := .Get "content3"}}
+{{ $c4 := .Get "content4"}}
+
+<!--                                  4 tabs                                   -->
+{{ if eq $id "4" }}
+	<div class="hg-tabs">
+		<div class="hg-tab-4">
+			<label for="hg-tab4-1">{{ $t1 }}</label>
+			<input id="hg-tab4-1" name="hg-tabs-four" type="radio" checked="checked" />
+			<div>
+				<p>{{ $c1 }}</p>
+			</div>
+		</div>
+		<div class="hg-tab-4">
+			<label for="hg-tab4-2">{{ $t2 }}</label>
+			<input id="hg-tab4-2" name="hg-tabs-four" type="radio" />
+			<div>
+				<p>{{ $c2 }}</p>
+			</div>
+		</div>
+		<div class="hg-tab-4">
+			<label for="hg-tab4-3">{{ $t3 }}</label>
+			<input id="hg-tab4-3" name="hg-tabs-four" type="radio" />
+			<div>
+				<p>{{ $c3 }}</p>
+			</div>
+		</div>
+		<div class="hg-tab-4">
+			<label for="hg-tab4-4">{{ $t4 }}</label>
+			<input id="hg-tab4-4" name="hg-tabs-four" type="radio" />
+			<div>
+				<p>{{ $c4 }}</p>
+			</div>
+		</div>
+	</div>
+
+<!--                                  3 tabs                                   -->
+{{ else if eq $id "3" }}
+	<div class="hg-tabs">
+		<div class="hg-tab-3">
+			<label for="hg-tab3-1">{{ $t1 }}</label>
+			<input id="hg-tab3-1" name="hg-tabs-three" type="radio" checked="checked" />
+			<div>
+				<p>{{ $c1 }}</p>
+			</div>
+		</div>
+		<div class="hg-tab-3">
+			<label for="hg-tab3-2">{{ $t2 }}</label>
+			<input id="hg-tab3-2" name="hg-tabs-three" type="radio" />
+			<div>
+				<p>{{ $c2 }}</p>
+			</div>
+		</div>
+		<div class="hg-tab-3">
+			<label for="hg-tab3-3">{{ $t3 }}</label>
+			<input id="hg-tab3-3" name="hg-tabs-three" type="radio" />
+			<div>
+				<p>{{ $c3 }}</p>
+			</div>
+		</div>
+	</div>
+
+<!--                                  2 tabs                                   -->
+{{ else }}
+	<div class="hg-tabs">
+		<div class="hg-tab-2">
+			<label for="hg-tab2-1">{{ $t1 }}</label>
+			<input id="hg-tab2-1" name="hg-tabs-two" type="radio" checked="checked" />
+			<div>
+				<p>{{ $c1 }}</p>
+			</div>
+		</div>
+		<div class="hg-tab-2">
+			<label for="hg-tab2-2">{{ $t2 }}</label>
+			<input id="hg-tab2-2" name="hg-tabs-two" type="radio" />
+			<div>
+				<p>{{ $c2 }}</p>
+			</div>
+		</div>
+	</div>
+
+{{ end }}
+
+<!-- Content -->
+{{ .Inner }}
