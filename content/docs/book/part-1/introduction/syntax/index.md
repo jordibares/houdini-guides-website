@@ -10,6 +10,10 @@ writer: "Jordi Bares"
 
 # Syntax
 
+{{< pill color="petrol" >}}
+All Versions
+{{< /pill >}}
+
 ## Introduction
 
 Strings everywhere

@@ -2,6 +2,11 @@
 @import "markdown";
 @import "utils";
 
+@import "hg-variables-colors";
+@import "hg-atom-tabs";
+@import "hg-atom-lists";
+
+
 html {
   font-size: $font-size-base;
   letter-spacing: 0.33px;
@@ -38,6 +43,14 @@ h6 {
   font-size: $font-size-18;
 }
 
+hr { display: block;
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    justify: space-around;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
 
 body {
   color: $body-font-color;

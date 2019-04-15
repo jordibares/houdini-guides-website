@@ -10,6 +10,10 @@ writer: "Jordi Bares"
 
 # Phylosophy
 
+{{< pill color="petrol" >}}
+All Versions
+{{< /pill >}}
+
 A quick recap on Houdini's phylosophy from my humble point of view, it is all about building the machine that builds the car rather than the directly building the car.
 
 As such, proceduralism in the most theorical way is truly elusive and I would suggest not to get fixated to be _perfect_ but rather coherent and scalable. Ultimately, if the tools you build are truly useful they will get used and maintained, they will grow and demand more effort until you really have an elegant solution that is abstract enough.

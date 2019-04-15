@@ -10,6 +10,10 @@ writer: "Jordi Bares"
 
 # Interface Layout
 
+{{< pill color="orange" >}}
+Houdini v17.5
+{{< /pill >}}
+
 Like every single DCC application, Houdini's structure consists on a viewport, a working area and parameters area where you can tweak the your selection available data.
 
 ![Default UI Layout][1]

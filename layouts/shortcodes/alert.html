@@ -1,0 +1,155 @@
+<style>
+	.hg-alert--danger {
+		border-radius: 5px;
+		border-left: 3px solid #cc0425;
+		color: $gray-700;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fedbe1;
+	}
+	.hg-alert--danger::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #fc94a6;
+		content: "!";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--danger p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--danger title {
+		color: #cc0425;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--warning {
+		border-radius: 5px;
+		border-left: 3px solid #ffd713;
+		color: $gray-700;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fff8d9;
+	}
+	.hg-alert--warning::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #ffe774;
+		content: "w";
+		position: absolute;
+		left: 0.5rem;
+		top: -5rem;
+		z-index: 0;
+	}
+	.hg-alert--warning p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--warning title {
+		color: #f2cb10;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--info {
+		border-radius: 5px;
+		border-left: 3px solid #1696cc;
+		color: $gray-700;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #e1f4fb;
+	}
+	.hg-alert--info::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #9ddaf3;
+		content: "i";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--info p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--info title {
+		color: #1696cc;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+{{ if eq (.Get "type") "danger" }}
+	<div class="hg-alert--danger">
+{{ else if eq (.Get "type") "warning" }}
+	<div class="hg-alert--warning">
+{{ else if eq (.Get "type") "info" }}
+	<div class="hg-alert--info">
+{{ else }}
+	<div class="hg-alert--info">
+{{ end }}
+  <title>{{.Get "title"}}</title>
+  <p>{{ .Inner }}</p>
+</div>

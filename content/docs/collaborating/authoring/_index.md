@@ -21,11 +21,7 @@ This means that you fork the repository, write all you want, modify all you want
 
 ## Writting style guide
 
-How we speak is critical to communicate effectively, therefore we are going to revisit how to write by approaching the voice, tone and style, hopefully we can produce a coherent book that everyone can enjoy.
-
-Of course vanilla markdown is a bit boring, for this reason this website uses Bootstrap v4.3 to produce richer content. Please refer to [Bootsrap official documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/) for more information.
-
-I have compiled the key components we should ber using in the StyleGuide Components page.
+How we speak is critical to communicate effectively, therefore we are going to revisit how to write by approaching the [voice, tone and style](https://gathercontent.com/blog/voice-tone-style-whys-wheres-hows), hopefully we can produce a coherent book that everyone can enjoy.
 
 ## Screen Recording standards
 

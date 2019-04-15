@@ -1,0 +1,103 @@
+<style>
+	.hg-pill--red {
+		color: white;
+		background: #cc0425;
+
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--orange {
+		color: white;
+		background: #ff6554;
+
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--green {
+		color: black;
+		background: #36ffce;
+
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--petrol {
+		color: white;
+		background: #5c8799;
+
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--blue {
+		color: white;
+		background: #1696cc;
+
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+</style>
+
+
+{{ if eq (.Get "color") "red" }}
+	<div class="hg-pill--red">
+{{ else if eq (.Get "color") "orange" }}
+	<div class="hg-pill--orange">
+{{ else if eq (.Get "color") "green" }}
+	<div class="hg-pill--green">
+{{ else if eq (.Get "color") "petrol" }}
+	<div class="hg-pill--petrol">
+{{ else if eq (.Get "color") "blue" }}
+	<div class="hg-pill--blue">
+{{ else }}
+	<div class="hg-pill--red">
+{{ end -}}
+		{{ .Inner }}
+	</div>

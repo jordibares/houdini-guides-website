@@ -1,0 +1,18 @@
+@import "variables";
+@import "hg-variables-colors";
+
+dl {
+  margin: 2rem 0;
+}
+dl dt {
+  color: $color-blue;
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-left: 2rem;
+  padding: 1rem 0 0;
+}
+dl dd {
+  font-size: 0.9em;
+  margin-left: 2rem;
+  padding: 0;
+}
