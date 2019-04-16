@@ -10,6 +10,10 @@ writer: "Jordi Bares"
 
 # Configuring the system
 
+{{< preamble >}}
+As a collaborator you will want to utilise the same approach I use when authoring content, here you can find some information on how to prepare and configure the necessary tools.
+{{< /preamble >}}
+
 In order to author you need three things in your computer;
 
 Brew

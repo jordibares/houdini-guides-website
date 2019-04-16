@@ -10,7 +10,9 @@ writer: "Jordi Bares"
 
 # Markdown
 
+{{< preamble >}}
 Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats which is the crucial part for efficient authoring of content.
+{{< /preamble >}}
 
 So, after many months testing and deciding I settled with a static web generator that utilises [Black Friday markdown](https://notes.peter-baumgartner.net/archive/content-organisation/blackfriday-markdown/) for all the writting.
 

@@ -10,7 +10,9 @@ writer: "Jordi Bares"
 
 # Style Guide
 
+{{< preamble >}}
 Reading online is very different from reading on printed form, for this reason it is very important to be brief, direct and write in a non-condescending tone, building using our base structure is also very important, for this reason here you have some pointers on how to deal with it.
+{{< /preamble >}}
 
 Content of this page has been extrated and modified for clarity, please find the original at [Gather Content](https://gathercontent.com/blog/voice-tone-style-whys-wheres-hows)
 
