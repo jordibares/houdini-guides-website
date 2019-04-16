@@ -1,5 +1,5 @@
 ---
-title: "Config Git"
+title: "Config the System"
 weight: 10
 
 categories: ["Collaborating"]
@@ -7,6 +7,44 @@ tags: ["Authoring", "Git"]
 
 writer: "Jordi Bares"
 ---
+
+# Configuring the system
+
+In order to author you need three things in your computer;
+
+Brew
+: This is a software package manager
+
+Hugo
+: This is the web engine or more precisely, the static wedbsite generator
+
+GitHub
+: The remote repository where the book is hosted and managed.
+
+
+## Install Brew on Mac OSX
+
+We first need to install Brew which is a package manager and will allow you to configure your mac in a comfortable way, it is really cool actually.
+
+``` bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+For more information have a look at [Brew](https://brew.sh)
+
+## Install Hugo on Mac OSX
+
+The Houdini Guides uses Hugo which is a static web page generator, a kind of clever conversion from markdown to html which renders websites that are very light and fast becuase they don't use databases, only front-end stuff.
+
+Please read this as well [Installing Hugo](https://gohugo.io/getting-started/installing/)
+
+Let's install Hugo like this...
+
+``` bash
+brew install hugo
+```
+
+Now you will be able to run hugo and test your posts, for information have a look at [Hugo](https://gohugo.io)
 
 # Configuring Git
 
@@ -22,20 +60,22 @@ If you don't know GitHub I will strongly suggest you check the various [GitHub O
 
 The best thing to do is to go to the (GitHub help pages](https://help.github.com/en/articles/fork-a-repo) on how to fork a repository and the cloning proces.
 
-```bash
-git clone https://github.com/<YOUR-GITHUB-USERNAME>/houdini-guides
+``` bash
+> git clone https://github.com/<YOUR-GITHUB-USERNAME>/houdini-guides
 ```
 
 Now you will have a clone of your own version of the houdini-guides in your local drive, you can do whatever you want here without fear or breaking anything at all.
 
-## How to author material
+# Authoring workflow
 
-Create new posts using the correct structure like
+## Create a new post
+
+Create new posts using the correct structure is not hard, just have a look at the book structure that has been downloaded and you will see quite clearly how things are setup.
 
 For example, to create a chapter on the animation part-2
 
-```bash
-hugo new post book/part-2/animation/keyframing/index.md
+``` bash
+> hugo new post book/part-2/animation/keyframing/index.md
 ```
 
 Will create a chapter under the animation block and the indes.md is the document you need to add your text, images and what not.
@@ -46,10 +86,10 @@ Please check the markdown guid and the style guide to find more about it.
 
 Once you are done with the content, double checked your grammar, typos and what not (I recommend using Grammarly for this), you can publish it to your GitHub repository like this
 
-```bash
-git add --all
-git commit -m "New keyframing chapter under animation"
-git push
+``` bash
+> git add --all
+> git commit -m "New keyframing chapter under animation"
+> git push
 ```
 
 ## Doing a Pull Request

@@ -14,6 +14,10 @@ writer: "Jordi Bares"
 Houdini v17.5
 {{< /pill >}}
 
+{{< preamble >}}
+You will notice Houdini's user interface puts lots of emphasis on the need to navigate complex scenes given it is a non-linear workflow you will also notice there are a few new ways to manipulate your objects and panels to understand what is going on.
+{{< /preamble >}}
+
 Like every single DCC application, Houdini's structure consists on a viewport, a working area and parameters area where you can tweak the your selection available data.
 
 ![Default UI Layout][1]

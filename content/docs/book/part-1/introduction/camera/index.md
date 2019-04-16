@@ -14,6 +14,10 @@ writer: "Jordi Bares"
 All Versions
 {{< /pill >}}
 
+{{< preamble >}}
+Cameras in Houdini are different from those on other applications, let's have a look at how these relate so you can become familiar with them.
+{{< /preamble >}}
+
 One of the first things you will notice is that the camera in Houdini, like every in every other package, is slightly different so here is a quick refresher.
 
 | Maya            | Houdini           | Conversion formulas                                   |

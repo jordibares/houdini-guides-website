@@ -14,7 +14,9 @@ writer: "Jordi Bares"
 All Versions
 {{< /pill >}}
 
-Blah blah blah
+{{< preamble >}}
+Modern color management has become a fundamental building block of any successful production, it is therefor fundamental you understand the mechanics in Houdini and how to make the most of it.
+{{< /preamble >}}
 
 ## Tetigisse hac duc omnipotens urbis per sapiente
 

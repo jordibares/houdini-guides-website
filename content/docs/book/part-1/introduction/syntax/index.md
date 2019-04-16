@@ -14,6 +14,10 @@ writer: "Jordi Bares"
 All Versions
 {{< /pill >}}
 
+{{< preamble >}}
+As we use Houdini's vast toolset you are going to encounter a variety of langugages and syntax you should keep in mind, let's review quickly where we stand so you understand how things operate.
+{{< /preamble >}}
+
 ## Introduction
 
 Strings everywhere

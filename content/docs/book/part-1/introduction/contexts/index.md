@@ -14,6 +14,10 @@ writer: "Jordi Bares"
 Houdini v17.5
 {{< /pill >}}
 
+{{< preamble >}}
+The various types of data you manipulate live in different but interconnected worlds, these are refered as "contexts" and it is critical you get used to as this is part of the normal operation in communicating effectively.
+{{< /preamble >}}
+
 These are all contexts and are environments to manipulate different types of content, you will have to jump in and out of them every single day a few times so let's define them now and we are done.
 
 OBJs

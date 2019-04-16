@@ -1,0 +1,36 @@
+<style>
+	.hg-preamble {
+		color: #868e96;
+		width: 90%;
+		padding: 0rem;
+		margin-top: 2rem;
+		margin-left: 0rem;
+		margin-bottom: 3rem;
+		position: relative;
+	}
+	.hg-preamble::before {
+		font-family: Lobster;
+		font-size: 6rem;
+		color: #e9eff2;
+		content: "Houdini Guides";
+		position: absolute;
+		left: -2rem;
+		top: -3rem;
+		z-index: 0;
+	}
+	.hg-preamble p {
+		color: #5c8799;
+		font-size: 1.4em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.2em;
+		margin: 0rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+<div class="hg-preamble">
+	<p>{{ .Inner }}</p> 
+</div>

@@ -14,6 +14,10 @@ writer: "Jordi Bares"
 All Versions
 {{< /pill >}}
 
+{{< preamble >}}
+When we talk about scene organisation in Houdini it is very valuable to think of it as a filesystem and the dependencies outside the software. This involves manpulating all sorts of files living on disk and versioning them in an effective way.
+{{< /preamble >}}
+
 Organising an scene in Houdini refers on how to construct the inputs and outputs
 
 ## Tetigisse hac duc omnipotens urbis per sapiente

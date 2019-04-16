@@ -3,7 +3,7 @@ title: Introduction
 type: docs
 ---
 
-<img class="logo" src="img/artwork/houdini_guides__DARK_medium.png" alt="Logo" width="765">
+# Introduction
 
 The goal of this collective book is to help accelerate the adoption of Houdini as the main tool in VFX by simplifying the transition from other tools to Houdini.
 
