@@ -362,6 +362,23 @@ This is a footnote to my paper.[^1]
 
 To make the content more readable, we have built a set of extra tools using Hugo Shortcodes.
 
+### Image Placeholders
+
+Usually you want to build your text and drop a few images to illustrate your explanation but but jumping from writting to creating the images is the worst appraoch, for this reason I have put together a *poster* shortcut to produce a wireframe image that will remind you of the images you have to produce.
+
+``` html
+{{ < poster > }}
+Image Placeholder Note
+{{ < /poster > }}
+```
+
+Which will produce...
+
+{{< poster >}}
+Image Placeholder Note
+{{< /poster >}}
+
+
 
 ### Margin Notes
 
@@ -369,9 +386,18 @@ Margin notes can be utilised to expand vocabulary terms and help remove mumbo-ju
 
 Keep in mind these margin notes are loosely placed based on the assumption the margin note clarifying a particular section should be written AFTER the section, like this one clarifying this paragraph.
 
+``` html
+{{ < marginnote > }}
+This margin note is clarifying the definition of AFTER.
+{{ < /marginnote > }}
+```
+
+Which will render as text in italics on the right side of the page... look over there - - - - - - - - >
+
 {{< marginnote >}}
 This margin note is clarifying the definition of AFTER.
 {{< /marginnote >}}
+
 
 ---
 

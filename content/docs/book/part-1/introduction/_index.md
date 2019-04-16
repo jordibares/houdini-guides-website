@@ -28,6 +28,7 @@ You will have to change how you work and accept a few things as they are, sooner
 
 Given Houdini relies a lot on external data files, from textures to geometry, from animation clips to caches so it is fundamental to be extra tidy to be able to manage big projects. Specially important is the strategy in organising things and versioning becuase sooner or later, bad organisation will cause you headaches. In this section we discuss basic strategies for you to consider and build your own.
 
+
 ## Camera
 
 And of course, a special mention should go to how a camera works in Houdini in respect to Maya, Max, Modo or Cinema 4D. Surely enough at some point you will love to import/export cameras coming from other packages, here we offer a few solutions to get this working correctly.

@@ -2,6 +2,8 @@
 title: "Part 2"
 weight: 2
 
+draft: true
+
 categories: ["Book", "Part"]
 tags: ["All Versions"]
 

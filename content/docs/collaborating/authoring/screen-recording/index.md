@@ -4,6 +4,8 @@ weight: 60
 categories: ["Collaborating"]
 tags: ["Authoring"]
 
+draft: true
+
 writer: "Jordi Bares"
 ---
 

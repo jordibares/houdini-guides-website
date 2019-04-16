@@ -2,6 +2,8 @@
 title: "Part 4"
 weight: 4
 
+draft: true
+
 categories: ["Book", "Part"]
 tags: ["All Versions"]
 
