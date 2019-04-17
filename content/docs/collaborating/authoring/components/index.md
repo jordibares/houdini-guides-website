@@ -240,6 +240,16 @@ Third item
 
 ---
 
+### Quotes
+
+Sometimes a quote is a fantastic tool to provide a quick overview of the content, for this reason this tool allows you to do so.
+
+> This is good for the test  
+> Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum.  
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor.  
+ 
+---
+
 ### Inline HTML
 
 You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
@@ -276,7 +286,7 @@ If you have inline code blocks, wrap them in backticks:
 
 `var example = true`.
 
-If you've got a longer block of code, you can indent with four spaces:
+If you've got a longer block of code, you can wrap them in 3 quotemarks like this:
 
 ````
 ```
@@ -289,33 +299,17 @@ If you've got a longer block of code, you can indent with four spaces:
     if (isAwesome){
       return true
     }
-
-Markdown also supports something called code fencing, which allows for multiple lines without indentation:
-
-````
-```
-if (isAwesome){
-  return true
-}
-```
-````
-
-```
-if (isAwesome){
-  return true
-}
-```
 
 And if you'd like to use syntax highlighting, include the language:
 
 ````
-```python
-if (isAwesome):
-  return true
+``` python
+  if (isAwesome):
+    return true
 ```
 ````
 
-```python
+``` python
 if (isAwesome):
   return true
 ```
@@ -444,14 +438,14 @@ Image Placeholder Note
 For quick non-intrusive notes we also have badges.
 
 ``` html
-{{ < badge type="danger" > }}
+{{ < badge > }}
 Remember to save your files before closing
 {{ < /badge > }}
 ```
 
 Will result in
 
-{{< badge type="danger">}}
+{{< badge >}}
 Remember to save your files before closing
 {{< /badge >}}
 
@@ -503,27 +497,6 @@ Remember to save your files before closing
 
 ---
 
-### Margin Notes
-
-Margin notes can be utilised to expand vocabulary terms and help remove mumbo-jumbo out of your text, reading easily for experienced artists and for those seeking definitions to find them close by without having to resort to hyperlinks which is not read friendly all the time.
-
-Keep in mind these margin notes are loosely placed based on the assumption the margin note clarifying a particular section should be written AFTER the section, like this one clarifying this paragraph.
-
-``` html
-{{ < marginnote > }}
-This margin note is clarifying the definition of AFTER.
-{{ < /marginnote > }}
-```
-
-Which will render as text in italics on the right side of the page... look over there - - - - - - - - >
-
-{{< marginnote >}}
-This margin note is clarifying the definition of AFTER.
-{{< /marginnote >}}
-
-
----
-
 ### Cites
 
 Cites are also graphically very heavy so please use sparingly, specially in the context of helping with the geography and clarifying important terms.
@@ -539,17 +512,6 @@ Will renders as
 {{< cite author="Jordi Bares" >}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui. Sed laoreet condimentum nisi a egestas.</
 {{< /cite >}}
-
----
-
-### Quotes
-
-Sometimes a quote is a fantastic tool to provide a quick overview of the content, for this reason this tool allows you to do so.
-
-> This is good for the test  
-> Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum.  
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor.  
- 
 
 ---
 
