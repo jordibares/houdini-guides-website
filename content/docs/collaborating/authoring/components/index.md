@@ -365,7 +365,7 @@ To make the content more readable, we have built a set of extra tools using Hugo
 
 You can use pills to indicate configuration versions or software versions right after the title of the page.
 
-``` html
+``` go
 {{ < pill color="orange" > }}
 color = orange
 {{ < /pill > }}
@@ -401,7 +401,7 @@ color = petrol
 
 After the main header or title of the page, please follow up with a preamble so you can invite the reader to the article, make it friendly and concise but not too short eithr.
 
-``` html
+``` go
 {{ < preamble > }}
 As a collaborator you will want to utilise the same approach I use when authoring content, here you can find some information on how to prepare and configure the necessary tools.
 {{ < /preamble > }}
@@ -419,7 +419,7 @@ As a collaborator you will want to utilise the same approach I use when authorin
 
 Usually you want to build your text and drop a few images to illustrate your explanation but but jumping from writting to creating the images is the worst appraoch, for this reason I have put together a *poster* shortcut to produce a wireframe image that will remind you of the images you have to produce.
 
-``` html
+``` go
 {{ < poster > }}
 Image Placeholder Note
 {{ < /poster > }}
@@ -437,7 +437,7 @@ Image Placeholder Note
 
 For quick non-intrusive notes we also have badges.
 
-``` html
+``` go
 {{ < badge > }}
 Remember to save your files before closing
 {{ < /badge > }}
@@ -455,7 +455,7 @@ Remember to save your files before closing
 
 When clarifying importante issue, notes or warnings, use these alerts to help, these are graphically heavy so please don't use too often, only when is an important element to discuss or in a huge article to help readabiilty and geography. Typically these should be added at the very bottom of the page as a way to highlight issues.
 
-``` html
+``` go
 {{ < alert type="danger" title="This is a Danger note" > }}
 Remember to save your files before closing
 {{ < /alert > }}
@@ -469,29 +469,29 @@ Remember to save your files before closing
 
 and
 
-``` html
-{{ < alert type="warning" title="This is a Danger note" > }}
+``` go
+{{ < alert type="warning" title="This is a Warning note" > }}
 Remember to save your files before closing
 {{ < /alert > }}
 ```
 
 Will result in
 
-{{< alert type="warning" title="This is a Danger note" >}}
+{{< alert type="warning" title="This is a Warning note" >}}
 Remember to save your files before closing
 {{< /alert >}}
 
 And finally, this
 
-``` html
-{{ < alert type="info" title="This is a Danger note" > }}
+``` go
+{{ < alert type="info" title="This is an Info note" > }}
 Remember to save your files before closing
 {{ < /alert > }}
 ```
 
 Will produce
 
-{{< alert type="info" title="This is a Danger note" >}}
+{{< alert type="info" title="This is an Info note" >}}
 Remember to save your files before closing
 {{< /alert >}}
 
@@ -501,7 +501,7 @@ Remember to save your files before closing
 
 Cites are also graphically very heavy so please use sparingly, specially in the context of helping with the geography and clarifying important terms.
 
-``` html
+``` go
 {{ < cite author="Jordi Bares" > }}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui. Sed laoreet condimentum nisi a egestas.</
 {{ < /cite > }}
@@ -521,7 +521,7 @@ These should be used sparingly to portray a preferred version of a workflow or c
 
 Given the current appraoch, you can only use 4 tabs and it is recommended to use in this manner.
 
-``` html
+``` go
 {{ < tabs number="4" 
     title1="MacOSX"
     content1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor." 
