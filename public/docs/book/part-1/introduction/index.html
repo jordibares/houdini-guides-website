@@ -1,0 +1,281 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+    General Concepts | Houdini Guides</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/normalize.min.css">
+
+<link rel="stylesheet" href="/book.min.4e3d380ee9abdce4d8d28b94f3e70cc32689fde8fc3758901f115e11d8e0baa0.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<link rel="alternate" type="application/rss+xml" href="https://www.houdiniguides.com/docs/book/part-1/introduction/index.xml" title="Houdini Guides" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono|Open+Sans|Oswald|Quicksand|Fjalla+One|Voltaire|Lobster:100,200,300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://www.houdiniguides.com/">Houdini Guides</a>
+</h2>
+
+
+
+    
+
+
+  
+  
+    
+    
+  
+ 
+  <ul>
+    
+    <li><a href="/docs/about/">About</a> 
+  <ul>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/book/">Book</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/">Part 1</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/introduction/" class="active">
+    General Concepts</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/ui-layout/">Interface Layout</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/phylosophy/">Phylosophy</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/scene-organisation/">Scene Organisation</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/contexts/">Contexts</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/camera/">Camera</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/color-management/">Color Management</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/syntax/">Syntax</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/collaborating/">Collaborating</a> 
+  <ul>
+    
+    <li><a href="/docs/collaborating/authoring/">
+    Authoring</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/collaborating/authoring/config-system/">Config the System</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/markdown/">Markdown</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/styleguide/">Styleguide</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/components/">Components</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/screen-recording/">Screen Recording</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>
+    General Concepts</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="general-concepts">General Concepts</h1>
+
+<p>Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.</p>
+
+<h2 id="ui-interface-layout">UI interface layout</h2>
+
+<p>Like every other 3D software package, the interface and user experience you live every single day can make or break the moment, for this reason I rather outline the basics first so you know where things are, which will lead neatly onto the underlying Houdini phylosophy.</p>
+
+<p>In my personal opinion you want to use Houdini in a way that extracts the most value if the new viewpor centric features, something not many old users do, therefore I will highly encourage you to build from scratch your own User Interface as described in this chapter, all courtesy of <a href="http://houdinicreationdesk.ipage.com/index.html">Phil Spicer</a> who not only is an expert, but has trained countless artists and understands the pedagogic aspect of this particular user interface.</p>
+
+<h2 id="houdini-phylosophy">Houdini phylosophy</h2>
+
+<p>Houdini is not that different, yet, it is another beast altogether if you don&rsquo;t get some fundamentals right, the same fundamentals that other packages hide from you are very much exposed right. front and center in Houdini. The purpose is, of course, tu put you in control. Sometimes it means extra work you wouldn&rsquo;t expect but in many cases you will wonder how easy things can be.</p>
+
+<p>You will have to change how you work and accept a few things as they are, sooner than you think these will become second nature and you will thrive.</p>
+
+<h2 id="scene-organisation">Scene organisation</h2>
+
+<p>Given Houdini relies a lot on external data files, from textures to geometry, from animation clips to caches so it is fundamental to be extra tidy to be able to manage big projects. Specially important is the strategy in organising things and versioning becuase sooner or later, bad organisation will cause you headaches. In this section we discuss basic strategies for you to consider and build your own.</p>
+
+<h2 id="camera">Camera</h2>
+
+<p>And of course, a special mention should go to how a camera works in Houdini in respect to Maya, Max, Modo or Cinema 4D. Surely enough at some point you will love to import/export cameras coming from other packages, here we offer a few solutions to get this working correctly.</p>
+
+<h2 id="color-management">Color Management</h2>
+
+<p>Furthermore, it is critical you set your color management right, for this reason we will also visit this section in particular as a reference explaining the various correct approaches and how to manipulate your textures to get the most of your render engine.</p>
+
+<h2 id="syntax">Syntax</h2>
+
+<p>And last but not least, Houdini animals have their on syntax, meaning; when you use expressions, or the Vex language or attributes, these require you to know certain things. Let&rsquo;s explore the basics here so we can move fast later.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div><a href="https://github.com/jordibares/houdini-guides-website/commit/d2134e90710d868e1674e8983d5b165d3b0cc2af" title='Last modified 16 April 2019, 13:30 BST by Jordi Bares' target="_blank" rel="noopener">
+      <img src="/svg/code-merge.svg" /> 16 April 2019, 13:30 BST
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/jordibares/houdini-guides-website/edit/master/content/docs/book/part-1/introduction/_index.md" target="_blank" rel="noopener">
+      <img src="/svg/code-fork.svg" /> Edit this page
+    </a>
+  </div>
+  
+</div>
+
+
+      
+<div class="align-center book-git-footer justify-center">
+    <p>
+        Copyright Jordi Bares 2019
+    </p>
+</div>
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#general-concepts">General Concepts</a>
+<ul>
+<li><a href="#ui-interface-layout">UI interface layout</a></li>
+<li><a href="#houdini-phylosophy">Houdini phylosophy</a></li>
+<li><a href="#scene-organisation">Scene organisation</a></li>
+<li><a href="#camera">Camera</a></li>
+<li><a href="#color-management">Color Management</a></li>
+<li><a href="#syntax">Syntax</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-137420586-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

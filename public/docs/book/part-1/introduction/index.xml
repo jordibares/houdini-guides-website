@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General Concepts on Houdini Guides</title>
+    <link>https://www.houdiniguides.com/docs/book/part-1/introduction/</link>
+    <description>Recent content in General Concepts on Houdini Guides</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://www.houdiniguides.com/docs/book/part-1/introduction/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Interface Layout</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/ui-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/ui-layout/</guid>
+      <description>Interface Layout  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Phylosophy</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/phylosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/phylosophy/</guid>
+      <description>Phylosophy  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Scene Organisation</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/scene-organisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/scene-organisation/</guid>
+      <description>Scene Organisation  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Contexts</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/contexts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/contexts/</guid>
+      <description>Contexts  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Camera</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/camera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/camera/</guid>
+      <description>Camera  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Color Management</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/color-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/color-management/</guid>
+      <description>Color Management  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Syntax</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/syntax/</guid>
+      <description>Syntax  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1923 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Components | Houdini Guides</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/normalize.min.css">
+
+<link rel="stylesheet" href="/book.min.4e3d380ee9abdce4d8d28b94f3e70cc32689fde8fc3758901f115e11d8e0baa0.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono|Open+Sans|Oswald|Quicksand|Fjalla+One|Voltaire|Lobster:100,200,300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://www.houdiniguides.com/">Houdini Guides</a>
+</h2>
+
+
+
+    
+
+
+  
+  
+    
+    
+  
+ 
+  <ul>
+    
+    <li><a href="/docs/about/">About</a> 
+  <ul>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/book/">Book</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/">Part 1</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/introduction/">
+    General Concepts</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/ui-layout/">Interface Layout</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/phylosophy/">Phylosophy</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/scene-organisation/">Scene Organisation</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/contexts/">Contexts</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/camera/">Camera</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/color-management/">Color Management</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/syntax/">Syntax</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/collaborating/">Collaborating</a> 
+  <ul>
+    
+    <li><a href="/docs/collaborating/authoring/">
+    Authoring</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/collaborating/authoring/config-system/">Config the System</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/markdown/">Markdown</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/styleguide/">Styleguide</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/components/" class="active">Components</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/screen-recording/">Screen Recording</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Components</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="components">Components</h1>
+
+<style>
+	.hg-preamble {
+		color: #868e96;
+		width: 90%;
+		padding: 0rem;
+		margin-top: 1.5rem;
+		margin-left: 0rem;
+		margin-bottom: 2rem;
+		position: relative;
+	}
+	.hg-preamble p {
+		color: #5c8799;
+		font-size: 1.4em;
+		font-family: inherit;
+		font-style: italic
+		font-weight: 100;
+		display: block;
+		line-height: 1.25em;
+		margin: 0rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+<div class="hg-preamble">
+	<p>
+Given the nature of online reading it is important as an author that you master both markdown and the special components I have created, here is a quick cheatsheet of them.
+</p> 
+</div>
+
+
+<p>In order to create rich content we must dive into the tools build around markdown.</p>
+
+<h2 id="standard-components">Standard Components</h2>
+
+<p>Here is a quick handy list for you to study and use as reference, these are the standard tools you found &ldquo;out of the box&rdquo; but you will see further down this documenta more advanced tools I have put together to make the content more interesting.</p>
+
+<h3 id="headers">Headers</h3>
+
+<p>Use headers as you normally would with standard markdown;</p>
+
+<pre><code># Title
+## Sub-title
+### Sub-Sub-title
+#### Sub-Sub-Sub-title
+##### Sub-Sub-title-Sub-Sub-title
+###### Sub-Sub-Sub-Sub-Sub-title
+</code></pre>
+
+<p>Will translate in;</p>
+
+<p>H1, H2, H3, H4, H5 and H6</p>
+
+<p>as you would normally use in HTML.</p>
+
+<hr />
+
+<h3 id="emphasis">Emphasis</h3>
+
+<pre><code>Emphasis, aka italics, with *asterisks* or _underscores_.
+
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+
+Combined emphasis with **asterisks and _underscores_**.
+
+Strikethrough uses two tildes. ~~Scratch this.~~
+</code></pre>
+
+<p>Will render like this;</p>
+
+<p>Emphasis, aka italics, with <em>asterisks</em> or <em>underscores</em>.</p>
+
+<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
+
+<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
+
+<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
+
+<hr />
+
+<h3 id="links">Links</h3>
+
+<p>There are two ways to create hyper-text links;</p>
+
+<pre><code>[I'm an inline-style link](https://www.google.com)
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself]
+
+URLs and URLs in angle brackets will automatically get turned into links.
+http://www.example.com or &lt;http://www.example.com&gt; and sometimes
+example.com (but not on Github, for example).
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+</code></pre>
+
+<p>Which will render like this;</p>
+
+<p><a href="https://www.google.com">I&rsquo;m an inline-style link</a></p>
+
+<p><a href="https://www.mozilla.org">I&rsquo;m a reference-style link</a></p>
+
+<p><a href="1" title="the footnote text.
+">You can use numbers for reference-style link definitions</a></p>
+
+<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a></p>
+
+<p>URLs and URLs in angle brackets will automatically get turned into links.
+<a href="http://www.example.com">http://www.example.com</a> or <a href="http://www.example.com">http://www.example.com</a> and sometimes
+example.com (but not on Github, for example).</p>
+
+<p>Some text to show that the reference links can follow later.</p>
+
+<hr />
+
+<h3 id="images">Images</h3>
+
+<p>If you want to embed images, this is how you do it:</p>
+
+<pre><code>Inline-style:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png &quot;Logo Title Text 1&quot;)
+
+Reference-style:
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png &quot;Logo Title Text 2&quot;
+</code></pre>
+
+<p>Which will render as;</p>
+
+<p>Inline-style:
+<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1" /></p>
+
+<p>Reference-style:
+<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 2" /></p>
+
+<hr />
+
+<h3 id="tables">Tables</h3>
+
+<p>Tables aren&rsquo;t part of the core Markdown spec, but they are supported here. They are an easy way of adding tables to your email &ndash; a task that would otherwise require copy-pasting from another application.</p>
+
+<p>Colons are used to align colmuns</p>
+
+<pre><code>| Tables        | Are           | Cool  |
+| :------------ |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+</code></pre>
+
+<p>Which will render as</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Tables</th>
+<th align="center">Are</th>
+<th align="right">Cool</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">col 3 is</td>
+<td align="center">right-aligned</td>
+<td align="right">$1600</td>
+</tr>
+
+<tr>
+<td align="left">col 2 is</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+
+<tr>
+<td align="left">zebra stripes</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+
+<hr />
+
+<h3 id="numbered-lists">Numbered Lists</h3>
+
+<p>List are usually to enumerate or indent lists in a section of the text, this is how they work.</p>
+
+<pre><code>1. One
+2. Two
+3. Three
+</code></pre>
+
+<p>Which render like this</p>
+
+<ol>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ol>
+
+<hr />
+
+<h3 id="ordered-lists">Ordered Lists</h3>
+
+<p>Other times you want bullet points:</p>
+
+<pre><code>* Start a line with a star
+* Profit!
+</code></pre>
+
+<p>Which result in</p>
+
+<ul>
+<li>Start a line with a star</li>
+<li>Profit!</li>
+</ul>
+
+<p>Alternatively,</p>
+
+<pre><code>- Dashes work just as well
+- And if you have sub points, put two spaces before the dash or star:
+  - Like this
+  - And this
+</code></pre>
+
+<p>Rendering like this</p>
+
+<ul>
+<li>Dashes work just as well</li>
+<li>And if you have sub points, put two spaces before the dash or star:
+
+<ul>
+<li>Like this</li>
+<li>And this</li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h3 id="definition-list">Definition List</h3>
+
+<p>Definition lists are a way to build good looking groups of items without resorting to ordered or unordered liests. This is perfect for context definitiosn and the like.</p>
+
+<pre><code>First item
+: This is a description fo that item using standar markdown
+
+Second item
+: A second item in the list
+
+Third item
+: And this is the final amazing thing in this list of items usind definition lists
+</code></pre>
+
+<p>Renders like this</p>
+
+<dl>
+<dt>First item</dt>
+<dd>This is a description fo that item using standar markdown</dd>
+<dt>Second item</dt>
+<dd>A second item in the list</dd>
+<dt>Third item</dt>
+<dd>And this is the final amazing thing in this list of items usind definition lists</dd>
+</dl>
+
+<hr />
+
+<h3 id="quotes">Quotes</h3>
+
+<p>Sometimes a quote is a fantastic tool to provide a quick overview of the content, for this reason this tool allows you to do so.</p>
+
+<blockquote>
+<p>This is good for the test<br />
+Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum.<br />
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="inline-html">Inline HTML</h3>
+
+<p>You can also use raw HTML in your Markdown, and it&rsquo;ll mostly work pretty well.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#111">&lt;</span><span style="color:#f92672">dl</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">dt</span><span style="color:#111">&gt;</span>Definition list<span style="color:#111">&lt;/</span><span style="color:#f92672">dt</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">dd</span><span style="color:#111">&gt;</span>Is something people use sometimes.<span style="color:#111">&lt;/</span><span style="color:#f92672">dd</span><span style="color:#111">&gt;</span>
+
+  <span style="color:#111">&lt;</span><span style="color:#f92672">dt</span><span style="color:#111">&gt;</span>Markdown in HTML<span style="color:#111">&lt;/</span><span style="color:#f92672">dt</span><span style="color:#111">&gt;</span>
+  <span style="color:#111">&lt;</span><span style="color:#f92672">dd</span><span style="color:#111">&gt;</span>Does *not* work **very** well. Use HTML <span style="color:#111">&lt;</span><span style="color:#f92672">em</span><span style="color:#111">&gt;</span>tags<span style="color:#111">&lt;/</span><span style="color:#f92672">em</span><span style="color:#111">&gt;</span>.<span style="color:#111">&lt;/</span><span style="color:#f92672">dd</span><span style="color:#111">&gt;</span>
+<span style="color:#111">&lt;/</span><span style="color:#f92672">dl</span><span style="color:#111">&gt;</span></code></pre></div>
+<p>Which will result in</p>
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+
+<hr />
+
+<h3 id="code">Code</h3>
+
+<p>If you have inline code blocks, wrap them in backticks:</p>
+
+<pre><code>`var example = true`.
+</code></pre>
+
+<p><code>var example = true</code>.</p>
+
+<p>If you&rsquo;ve got a longer block of code, you can wrap them in 3 quotemarks like this:</p>
+
+<pre><code>```
+    if (isAwesome){
+      return true
+    }
+```
+</code></pre>
+
+<pre><code>if (isAwesome){
+  return true
+}
+</code></pre>
+
+<p>And if you&rsquo;d like to use syntax highlighting, include the language:</p>
+
+<pre><code>``` python
+  if (isAwesome):
+    return true
+```
+</code></pre>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#00a8c8">if</span> <span style="color:#111">(</span><span style="color:#111">isAwesome</span><span style="color:#111">):</span>
+  <span style="color:#00a8c8">return</span> <span style="color:#111">true</span></code></pre></div>
+<hr />
+
+<h3 id="markdown-extras">Markdown Extras</h3>
+
+<p>Markdown supports many extras that help you reference and link to people. If you ever want to direct a comment at someone, you can prefix their name with an @ symbol: Hey @kneath — love your sweater!</p>
+
+<pre><code>But I have to admit, tasks lists are my favorite:
+
+- [x] This is a complete item
+- [ ] This is an incomplete item
+
+When you include a task list in the first comment of an Issue, you will see a helpful progress bar in your list of issues. It works in Pull Requests, too!
+</code></pre>
+
+<p>But I have to admit, tasks lists are my favorite:</p>
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> This is a complete item</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> This is an incomplete item</label></li>
+</ul>
+
+<p>When you include a task list in the first comment of an Issue, you will see a helpful progress bar in your list of issues. It works in Pull Requests, too!</p>
+
+<hr />
+
+<h3 id="footnotes">Footnotes</h3>
+
+<p>Footnotes allow you to do exactly that, add a footnote that lives in the bottom of the page and we should use to reference other papers too long to read via a hyperlink or to give credit to other people.</p>
+
+<pre><code>This is a footnote.[^1]
+
+[^1]: the footnote text.
+</code></pre>
+
+<p>Will render like this&hellip;</p>
+
+<p>This is a footnote to my paper.<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<hr />
+
+<h2 id="advanced-components">Advanced Components</h2>
+
+<p>To make the content more readable, we have built a set of extra tools using Hugo Shortcodes.</p>
+
+<h3 id="pills">Pills</h3>
+
+<p>You can use pills to indicate configuration versions or software versions right after the title of the page.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">pill</span> <span style="color:#75af00">color</span><span style="color:#111">=</span><span style="color:#d88200">&#34;orange&#34;</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#75af00">color</span> <span style="color:#111">=</span> <span style="color:#75af00">orange</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">pill</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Which renders like this</p>
+
+<style>
+	.hg-pill--red {
+		color: white;
+		background: #cc0425;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--orange {
+		color: white;
+		background: #ff6554;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--green {
+		color: black;
+		background: #36ffce;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--petrol {
+		color: white;
+		background: #5c8799;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--blue {
+		color: white;
+		background: #1696cc;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+</style>
+
+
+
+	<div class="hg-pill--orange">
+
+color = orange
+
+	</div>
+
+<p>or</p>
+
+<style>
+	.hg-pill--red {
+		color: white;
+		background: #cc0425;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--orange {
+		color: white;
+		background: #ff6554;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--green {
+		color: black;
+		background: #36ffce;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--petrol {
+		color: white;
+		background: #5c8799;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--blue {
+		color: white;
+		background: #1696cc;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+</style>
+
+
+
+	<div class="hg-pill--red">
+
+color = red
+
+	</div>
+
+<style>
+	.hg-pill--red {
+		color: white;
+		background: #cc0425;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--orange {
+		color: white;
+		background: #ff6554;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--green {
+		color: black;
+		background: #36ffce;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--petrol {
+		color: white;
+		background: #5c8799;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--blue {
+		color: white;
+		background: #1696cc;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+</style>
+
+
+
+	<div class="hg-pill--green">
+
+color = green
+
+	</div>
+
+<style>
+	.hg-pill--red {
+		color: white;
+		background: #cc0425;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--orange {
+		color: white;
+		background: #ff6554;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--green {
+		color: black;
+		background: #36ffce;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--petrol {
+		color: white;
+		background: #5c8799;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--blue {
+		color: white;
+		background: #1696cc;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+</style>
+
+
+
+	<div class="hg-pill--blue">
+
+color = blue
+
+	</div>
+
+<style>
+	.hg-pill--red {
+		color: white;
+		background: #cc0425;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--orange {
+		color: white;
+		background: #ff6554;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--green {
+		color: black;
+		background: #36ffce;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--petrol {
+		color: white;
+		background: #5c8799;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--blue {
+		color: white;
+		background: #1696cc;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+</style>
+
+
+
+	<div class="hg-pill--petrol">
+
+color = petrol
+
+	</div>
+
+<hr />
+
+<h3 id="preamble">Preamble</h3>
+
+<p>After the main header or title of the page, please follow up with a preamble so you can invite the reader to the article, make it friendly and concise but not too short eithr.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">preamble</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#75af00">As</span> <span style="color:#75af00">a</span> <span style="color:#75af00">collaborator</span> <span style="color:#75af00">you</span> <span style="color:#75af00">will</span> <span style="color:#75af00">want</span> <span style="color:#75af00">to</span> <span style="color:#75af00">utilise</span> <span style="color:#75af00">the</span> <span style="color:#75af00">same</span> <span style="color:#75af00">approach</span> <span style="color:#75af00">I</span> <span style="color:#75af00">use</span> <span style="color:#75af00">when</span> <span style="color:#75af00">authoring</span> <span style="color:#75af00">content</span><span style="color:#111">,</span> <span style="color:#75af00">here</span> <span style="color:#75af00">you</span> <span style="color:#75af00">can</span> <span style="color:#75af00">find</span> <span style="color:#75af00">some</span> <span style="color:#75af00">information</span> <span style="color:#75af00">on</span> <span style="color:#75af00">how</span> <span style="color:#75af00">to</span> <span style="color:#75af00">prepare</span> <span style="color:#75af00">and</span> <span style="color:#75af00">configure</span> <span style="color:#75af00">the</span> <span style="color:#75af00">necessary</span> <span style="color:#75af00">tools</span><span style="color:#111">.</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">preamble</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Will render like</p>
+
+<style>
+	.hg-preamble {
+		color: #868e96;
+		width: 90%;
+		padding: 0rem;
+		margin-top: 1.5rem;
+		margin-left: 0rem;
+		margin-bottom: 2rem;
+		position: relative;
+	}
+	.hg-preamble p {
+		color: #5c8799;
+		font-size: 1.4em;
+		font-family: inherit;
+		font-style: italic
+		font-weight: 100;
+		display: block;
+		line-height: 1.25em;
+		margin: 0rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+<div class="hg-preamble">
+	<p>
+As a collaborator you will want to utilise the same approach I use when authoring content, here you can find some information on how to prepare and configure the necessary tools.
+</p> 
+</div>
+
+
+<hr />
+
+<h3 id="image-placeholders">Image Placeholders</h3>
+
+<p>Usually you want to build your text and drop a few images to illustrate your explanation but but jumping from writting to creating the images is the worst appraoch, for this reason I have put together a <em>poster</em> shortcut to produce a wireframe image that will remind you of the images you have to produce.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">poster</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#75af00">Image</span> <span style="color:#75af00">Placeholder</span> <span style="color:#75af00">Note</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">poster</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Which will produce&hellip;</p>
+
+<style>
+    .image-placeholder {
+        background-color: #eee;
+        display: flex;
+        height: 300px;
+        margin: 0px;
+        width: 750px;
+    }
+    .image-placeholder > note {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
+</style> 
+
+<div class="image-placeholder">
+    <note>
+Image Placeholder Note
+</note>
+</div>
+
+<hr />
+
+<h3 id="badges">Badges</h3>
+
+<p>For quick non-intrusive notes we also have badges.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">badge</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#75af00">Remember</span> <span style="color:#75af00">to</span> <span style="color:#75af00">save</span> <span style="color:#75af00">your</span> <span style="color:#75af00">files</span> <span style="color:#75af00">before</span> <span style="color:#75af00">closing</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">badge</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Will result in</p>
+
+<style>
+	.hg-badge {
+		border-radius: 5px;
+		border-left: 3px solid #5c8799;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #d6e1e6;
+	}
+	.hg-badge p {
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin-top: 0rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+		margin-bottom: 0rem;
+		padding: 0rem;
+		position: relative;
+	}
+</style>
+
+<div class="hg-badge">
+	<p>
+Remember to save your files before closing
+</p>
+</div>
+
+
+<hr />
+
+<h3 id="alerts">Alerts</h3>
+
+<p>When clarifying importante issue, notes or warnings, use these alerts to help, these are graphically heavy so please don&rsquo;t use too often, only when is an important element to discuss or in a huge article to help readabiilty and geography. Typically these should be added at the very bottom of the page as a way to highlight issues.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">alert</span> <span style="color:#00a8c8">type</span><span style="color:#111">=</span><span style="color:#d88200">&#34;danger&#34;</span> <span style="color:#75af00">title</span><span style="color:#111">=</span><span style="color:#d88200">&#34;This is a Danger note&#34;</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#75af00">Remember</span> <span style="color:#75af00">to</span> <span style="color:#75af00">save</span> <span style="color:#75af00">your</span> <span style="color:#75af00">files</span> <span style="color:#75af00">before</span> <span style="color:#75af00">closing</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">alert</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Will render as</p>
+
+<style>
+	.hg-alert--danger {
+		border-radius: 5px;
+		border-left: 3px solid #cc0425;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fedbe1;
+	}
+	.hg-alert--danger::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #fc94a6;
+		content: "!";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--danger p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--danger title {
+		color: #cc0425;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--warning {
+		border-radius: 5px;
+		border-left: 3px solid #ffd713;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fff8d9;
+	}
+	.hg-alert--warning::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #ffe774;
+		content: "w";
+		position: absolute;
+		left: 0.5rem;
+		top: -5rem;
+		z-index: 0;
+	}
+	.hg-alert--warning p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--warning title {
+		color: #f2cb10;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--info {
+		border-radius: 5px;
+		border-left: 3px solid #1696cc;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #e1f4fb;
+	}
+	.hg-alert--info::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #9ddaf3;
+		content: "i";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--info p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--info title {
+		color: #1696cc;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+
+	<div class="hg-alert--danger">
+
+  <title>This is a Danger note</title>
+  <p>
+Remember to save your files before closing
+</p>
+</div>
+
+<p>and</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">alert</span> <span style="color:#00a8c8">type</span><span style="color:#111">=</span><span style="color:#d88200">&#34;warning&#34;</span> <span style="color:#75af00">title</span><span style="color:#111">=</span><span style="color:#d88200">&#34;This is a Warning note&#34;</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#75af00">Remember</span> <span style="color:#75af00">to</span> <span style="color:#75af00">save</span> <span style="color:#75af00">your</span> <span style="color:#75af00">files</span> <span style="color:#75af00">before</span> <span style="color:#75af00">closing</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">alert</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Will result in</p>
+
+<style>
+	.hg-alert--danger {
+		border-radius: 5px;
+		border-left: 3px solid #cc0425;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fedbe1;
+	}
+	.hg-alert--danger::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #fc94a6;
+		content: "!";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--danger p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--danger title {
+		color: #cc0425;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--warning {
+		border-radius: 5px;
+		border-left: 3px solid #ffd713;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fff8d9;
+	}
+	.hg-alert--warning::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #ffe774;
+		content: "w";
+		position: absolute;
+		left: 0.5rem;
+		top: -5rem;
+		z-index: 0;
+	}
+	.hg-alert--warning p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--warning title {
+		color: #f2cb10;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--info {
+		border-radius: 5px;
+		border-left: 3px solid #1696cc;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #e1f4fb;
+	}
+	.hg-alert--info::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #9ddaf3;
+		content: "i";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--info p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--info title {
+		color: #1696cc;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+
+	<div class="hg-alert--warning">
+
+  <title>This is a Warning note</title>
+  <p>
+Remember to save your files before closing
+</p>
+</div>
+
+<p>And finally, this</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">alert</span> <span style="color:#00a8c8">type</span><span style="color:#111">=</span><span style="color:#d88200">&#34;info&#34;</span> <span style="color:#75af00">title</span><span style="color:#111">=</span><span style="color:#d88200">&#34;This is an Info note&#34;</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#75af00">Remember</span> <span style="color:#75af00">to</span> <span style="color:#75af00">save</span> <span style="color:#75af00">your</span> <span style="color:#75af00">files</span> <span style="color:#75af00">before</span> <span style="color:#75af00">closing</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">alert</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Will produce</p>
+
+<style>
+	.hg-alert--danger {
+		border-radius: 5px;
+		border-left: 3px solid #cc0425;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fedbe1;
+	}
+	.hg-alert--danger::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #fc94a6;
+		content: "!";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--danger p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--danger title {
+		color: #cc0425;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--warning {
+		border-radius: 5px;
+		border-left: 3px solid #ffd713;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fff8d9;
+	}
+	.hg-alert--warning::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #ffe774;
+		content: "w";
+		position: absolute;
+		left: 0.5rem;
+		top: -5rem;
+		z-index: 0;
+	}
+	.hg-alert--warning p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--warning title {
+		color: #f2cb10;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--info {
+		border-radius: 5px;
+		border-left: 3px solid #1696cc;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #e1f4fb;
+	}
+	.hg-alert--info::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #9ddaf3;
+		content: "i";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--info p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--info title {
+		color: #1696cc;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+
+	<div class="hg-alert--info">
+
+  <title>This is an Info note</title>
+  <p>
+Remember to save your files before closing
+</p>
+</div>
+
+<hr />
+
+<h3 id="cites">Cites</h3>
+
+<p>Cites are also graphically very heavy so please use sparingly, specially in the context of helping with the geography and clarifying important terms.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">cite</span> <span style="color:#75af00">author</span><span style="color:#111">=</span><span style="color:#d88200">&#34;Jordi Bares&#34;</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#75af00">Lorem</span> <span style="color:#75af00">ipsum</span> <span style="color:#75af00">dolor</span> <span style="color:#75af00">sit</span> <span style="color:#75af00">amet</span><span style="color:#111">,</span> <span style="color:#75af00">consectetur</span> <span style="color:#75af00">adipiscing</span> <span style="color:#75af00">elit</span><span style="color:#111">.</span> <span style="color:#75af00">Maecenas</span> <span style="color:#75af00">consequat</span> <span style="color:#75af00">id</span> <span style="color:#75af00">velit</span> <span style="color:#75af00">quis</span> <span style="color:#75af00">vestibulum</span><span style="color:#111">.</span> <span style="color:#75af00">Nam</span> <span style="color:#75af00">id</span> <span style="color:#75af00">orci</span> <span style="color:#75af00">eu</span> <span style="color:#75af00">urna</span> <span style="color:#75af00">mollis</span> <span style="color:#75af00">porttitor</span><span style="color:#111">.</span> <span style="color:#75af00">Nunc</span> <span style="color:#75af00">nisi</span> <span style="color:#75af00">ante</span><span style="color:#111">,</span> <span style="color:#75af00">gravida</span> <span style="color:#75af00">at</span> <span style="color:#75af00">velit</span> <span style="color:#75af00">eu</span><span style="color:#111">,</span> <span style="color:#75af00">aliquet</span> <span style="color:#75af00">sodales</span> <span style="color:#75af00">dui</span><span style="color:#111">.</span> <span style="color:#75af00">Sed</span> <span style="color:#75af00">laoreet</span> <span style="color:#75af00">condimentum</span> <span style="color:#75af00">nisi</span> <span style="color:#75af00">a</span> <span style="color:#75af00">egestas</span><span style="color:#111">.&lt;</span><span style="color:#f92672">/</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">cite</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Will renders as</p>
+
+<style>
+	.hg-quote {
+		color: #1696cc;
+		width: 90%;
+		padding: 0rem;
+		margin-top: 2rem;
+		margin-left: 2rem;
+		position: relative;
+	}
+	.hg-quote::before {
+		font-family: Georgia, serif;
+		font-size: 14rem;
+		color: #d6e1e6;
+		content: "“";
+		position: absolute;
+		left: 0;
+		top: -7rem;
+		z-index: 0;
+	}
+	.hg-quote p {
+		color: #1696cc;
+		font-size: 1.4em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.2em;
+		margin: 0.5rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-quote cite {
+		color: #5c8799;
+		font-size: 1rem;
+		display: block;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		z-index: 2;
+		top: .5rem;
+	}
+	.hg-quote cite::before {
+		content: "—";
+		display: inline-block;
+		height: 2rem;
+		width: 2rem;
+	}
+</style>
+
+<div class="hg-quote">
+	<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui. Sed laoreet condimentum nisi a egestas.</
+</p>
+	<cite>Jordi Bares</cite>
+</div>
+
+
+<hr />
+
+<h3 id="tabs">Tabs</h3>
+
+<p>These should be used sparingly to portray a preferred version of a workflow or configuration. A good example is the Houdini environment configuration file because if you are using a MacOSX you are not really interested in reading about the Windows or Linux configuration and vice-versa.</p>
+
+<p>Given the current appraoch, you can only use 4 tabs and it is recommended to use in this manner.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#75af00">tabs</span> <span style="color:#75af00">number</span><span style="color:#111">=</span><span style="color:#d88200">&#34;4&#34;</span> 
+    <span style="color:#75af00">title1</span><span style="color:#111">=</span><span style="color:#d88200">&#34;MacOSX&#34;</span>
+    <span style="color:#75af00">content1</span><span style="color:#111">=</span><span style="color:#d88200">&#34;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor.&#34;</span> 
+
+    <span style="color:#75af00">title2</span><span style="color:#111">=</span><span style="color:#d88200">&#34;Linux&#34;</span>
+    <span style="color:#75af00">content2</span><span style="color:#111">=</span><span style="color:#d88200">&#34;Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui.&#34;</span>
+
+    <span style="color:#75af00">title3</span><span style="color:#111">=</span><span style="color:#d88200">&#34;Windows&#34;</span>
+    <span style="color:#75af00">content3</span><span style="color:#111">=</span><span style="color:#d88200">&#34;Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui.&#34;</span>
+
+    <span style="color:#75af00">title4</span><span style="color:#111">=</span><span style="color:#d88200">&#34;BeOS&#34;</span>
+    <span style="color:#75af00">content4</span><span style="color:#111">=</span><span style="color:#d88200">&#34;Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes. Miseratus fonte Ditis conubia.&#34;</span>
+<span style="color:#111">&gt;</span> <span style="color:#111">}}</span>
+<span style="color:#111">{{</span> <span style="color:#111">&lt;</span> <span style="color:#f92672">/</span><span style="color:#75af00">tabs</span> <span style="color:#111">&gt;</span> <span style="color:#111">}}</span></code></pre></div>
+<p>Which will be rendered like this.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="hg-tabs">
+		<div class="hg-tab-4">
+			<label for="hg-tab4-1">MacOSX</label>
+			<input id="hg-tab4-1" name="hg-tabs-four" type="radio" checked="checked" />
+			<div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor.</p>
+			</div>
+		</div>
+		<div class="hg-tab-4">
+			<label for="hg-tab4-2">Linux</label>
+			<input id="hg-tab4-2" name="hg-tabs-four" type="radio" />
+			<div>
+				<p>Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui.</p>
+			</div>
+		</div>
+		<div class="hg-tab-4">
+			<label for="hg-tab4-3">Windows</label>
+			<input id="hg-tab4-3" name="hg-tabs-four" type="radio" />
+			<div>
+				<p>Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui.</p>
+			</div>
+		</div>
+		<div class="hg-tab-4">
+			<label for="hg-tab4-4">BeOS</label>
+			<input id="hg-tab4-4" name="hg-tabs-four" type="radio" />
+			<div>
+				<p>Lorem markdownum italic insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui _quid_, ignes. Miseratus fonte Ditis conubia.</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+<hr />
+
+<h3 id="acordeon">Acordeon</h3>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">{{ <span style="color:#111">&lt;</span> <span style="color:#f92672">accordion</span> <span style="color:#75af00">number</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;3&#34;</span>
+
+    <span style="color:#75af00">title1</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;MacOSX&#34;</span>
+    <span style="color:#75af00">content1</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor.&#34;</span> 
+
+    <span style="color:#75af00">title2</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;Linux&#34;</span>
+    <span style="color:#75af00">content2</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui.&#34;</span>
+
+    <span style="color:#75af00">title3</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;Windows&#34;</span>
+    <span style="color:#75af00">content3</span><span style="color:#f92672">=</span><span style="color:#d88200">&#34;Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui.&#34;</span>
+    
+ <span style="color:#111">&gt;</span> }}
+{{ <span style="color:#111">&lt;</span> <span style="color:#111">/</span><span style="color:#f92672">accordion</span> <span style="color:#111">&gt;</span> }}</code></pre></div>
+<div class="hg-accordion">
+	
+	
+		
+		
+		
+		
+
+		<div class="hg-option">
+			<input type="checkbox" id=toggle1 class="hg-toggle" />
+			<label class="hg-title" for=toggle1>Step 1</label>
+			<div class="hg-content">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor.</p>
+			</div>
+		</div>
+	
+		
+		
+		
+		
+
+		<div class="hg-option">
+			<input type="checkbox" id=toggle2 class="hg-toggle" />
+			<label class="hg-title" for=toggle2>Step 2</label>
+			<div class="hg-content">
+				<p>Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui.</p>
+			</div>
+		</div>
+	
+		
+		
+		
+		
+
+		<div class="hg-option">
+			<input type="checkbox" id=toggle3 class="hg-toggle" />
+			<label class="hg-title" for=toggle3>Step 3</label>
+			<div class="hg-content">
+				<p>Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui.</p>
+			</div>
+		</div>
+	
+</div>
+
+
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">the footnote text.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div><a href="https://github.com/jordibares/houdini-guides-website/commit/8af1ca32bcdabe27ebf157f9fee846980e77287f" title='Last modified 19 April 2019, 23:22 BST by Jordi Bares' target="_blank" rel="noopener">
+      <img src="/svg/code-merge.svg" /> 19 April 2019, 23:22 BST
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/jordibares/houdini-guides-website/edit/master/content/docs/collaborating/authoring/components/index.md" target="_blank" rel="noopener">
+      <img src="/svg/code-fork.svg" /> Edit this page
+    </a>
+  </div>
+  
+</div>
+
+
+      
+<div class="align-center book-git-footer justify-center">
+    <p>
+        Copyright Jordi Bares 2019
+    </p>
+</div>
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#components">Components</a>
+<ul>
+<li><a href="#standard-components">Standard Components</a>
+<ul>
+<li><a href="#headers">Headers</a></li>
+<li><a href="#emphasis">Emphasis</a></li>
+<li><a href="#links">Links</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#tables">Tables</a></li>
+<li><a href="#numbered-lists">Numbered Lists</a></li>
+<li><a href="#ordered-lists">Ordered Lists</a></li>
+<li><a href="#definition-list">Definition List</a></li>
+<li><a href="#quotes">Quotes</a></li>
+<li><a href="#inline-html">Inline HTML</a></li>
+<li><a href="#code">Code</a></li>
+<li><a href="#markdown-extras">Markdown Extras</a></li>
+<li><a href="#footnotes">Footnotes</a></li>
+</ul></li>
+<li><a href="#advanced-components">Advanced Components</a>
+<ul>
+<li><a href="#pills">Pills</a></li>
+<li><a href="#preamble">Preamble</a></li>
+<li><a href="#image-placeholders">Image Placeholders</a></li>
+<li><a href="#badges">Badges</a></li>
+<li><a href="#alerts">Alerts</a></li>
+<li><a href="#cites">Cites</a></li>
+<li><a href="#tabs">Tabs</a></li>
+<li><a href="#acordeon">Acordeon</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-137420586-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

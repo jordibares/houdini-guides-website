@@ -1,0 +1,291 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Screen Recording | Houdini Guides</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/normalize.min.css">
+
+<link rel="stylesheet" href="/book.min.4e3d380ee9abdce4d8d28b94f3e70cc32689fde8fc3758901f115e11d8e0baa0.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono|Open+Sans|Oswald|Quicksand|Fjalla+One|Voltaire|Lobster:100,200,300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://www.houdiniguides.com/">Houdini Guides</a>
+</h2>
+
+
+
+    
+
+
+  
+  
+    
+    
+  
+ 
+  <ul>
+    
+    <li><a href="/docs/about/">About</a> 
+  <ul>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/book/">Book</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/">Part 1</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/introduction/">
+    General Concepts</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/ui-layout/">Interface Layout</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/phylosophy/">Phylosophy</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/scene-organisation/">Scene Organisation</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/contexts/">Contexts</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/camera/">Camera</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/color-management/">Color Management</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/syntax/">Syntax</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/collaborating/">Collaborating</a> 
+  <ul>
+    
+    <li><a href="/docs/collaborating/authoring/">
+    Authoring</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/collaborating/authoring/config-system/">Config the System</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/markdown/">Markdown</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/styleguide/">Styleguide</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/components/">Components</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/screen-recording/" class="active">Screen Recording</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Screen Recording</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="screen-recording">Screen Recording</h1>
+
+<p>Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat
+stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa
+protulit, sed sed aere valvis inhaesuro Pallas animam: qui <em>quid</em>, ignes.
+Miseratus fonte Ditis conubia.</p>
+
+<hr />
+
+<h3 id="import">Import</h3>
+
+<p>Import allows you to include external files in the document which is very helpful when dealing with very long scripts that you want to be able to download and execute later on.</p>
+
+<pre><code>{{ % import file=&quot;/static/python/example.py&quot; language=&quot;python&quot; % }}
+</code></pre>
+
+<p>Resulting in printing the contents of the files /static/pyhon/example.py</p>
+
+<pre><code>&lt;div class=&quot;highlight&quot;&gt;&lt;pre style=&quot;color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4&quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#00a8c8&quot;&gt;def&lt;/span&gt; &lt;span style=&quot;color:#75af00&quot;&gt;unparentAndKeepPos&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;obj_node&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;):&lt;/span&gt;
+&lt;span style=&quot;color:#d88200&quot;&gt;&amp;#34;&amp;#34;&amp;#34;
+</code></pre>
+
+<p></span><span style="color:#d88200">        Unparent an object node, but keep it in the same position as it was
+</span><span style="color:#d88200">    when it was parented.
+</span><span style="color:#d88200">    &#34;&#34;&#34;</span></p>
+
+<pre><code>&lt;span style=&quot;color:#111&quot;&gt;xform&lt;/span&gt; &lt;span style=&quot;color:#f92672&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color:#111&quot;&gt;obj_node&lt;/span&gt;&lt;span style=&quot;color:#f92672&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;worldTransform&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;()&lt;/span&gt;
+&lt;span style=&quot;color:#111&quot;&gt;obj_node&lt;/span&gt;&lt;span style=&quot;color:#f92672&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;setFirstInput&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;None&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;)&lt;/span&gt;
+&lt;span style=&quot;color:#111&quot;&gt;obj_node&lt;/span&gt;&lt;span style=&quot;color:#f92672&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;setWorldTransform&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;xform&lt;/span&gt;&lt;span style=&quot;color:#111&quot;&gt;)&lt;/span&gt;
+</code></pre>
+
+<p><span style="color:#111">unparentAndKeepPos</span><span style="color:#111">(</span><span style="color:#111">hou</span><span style="color:#f92672">.</span><span style="color:#111">node</span><span style="color:#111">(</span><span style="color:#d88200">&#34;/obj/box_object4&#34;</span><span style="color:#111">))</span></code></pre></div></p>
+
+<p>Of course you can also include the files as they are by tagging them as markdown with the &ldquo;language&rdquo; attribute, likes this&hellip;</p>
+
+<pre><code>{{ % import file=&quot;/static/md/lorem-ipsum.md&quot; language=&quot;md&quot; % }}
+</code></pre>
+
+<p>Which will render the content of the file, acting as a pure import&hellip; like this&hellip;</p>
+
+<pre><code>&lt;p&gt;Where does it come from?
+</code></pre>
+
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &ldquo;de Finibus Bonorum et Malorum&rdquo; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &ldquo;Lorem ipsum dolor sit amet..&rdquo;, comes from a line in section 1.10.32.</p></p>
+
+<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from &ldquo;de Finibus Bonorum et Malorum&rdquo; by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div><a href="https://github.com/jordibares/houdini-guides-website/commit/d2134e90710d868e1674e8983d5b165d3b0cc2af" title='Last modified 16 April 2019, 13:30 BST by Jordi Bares' target="_blank" rel="noopener">
+      <img src="/svg/code-merge.svg" /> 16 April 2019, 13:30 BST
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/jordibares/houdini-guides-website/edit/master/content/docs/collaborating/authoring/screen-recording/index.md" target="_blank" rel="noopener">
+      <img src="/svg/code-fork.svg" /> Edit this page
+    </a>
+  </div>
+  
+</div>
+
+
+      
+<div class="align-center book-git-footer justify-center">
+    <p>
+        Copyright Jordi Bares 2019
+    </p>
+</div>
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#screen-recording">Screen Recording</a>
+<ul>
+<li>
+<ul>
+<li><a href="#import">Import</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-137420586-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Houdini Guides</title>
+    <link>https://www.houdiniguides.com/posts/</link>
+    <description>Recent content in Posts on Houdini Guides</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 17 Mar 2019 14:08:09 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.houdiniguides.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Initiative</title>
+      <link>https://www.houdiniguides.com/posts/2019-03-17__new-initiative/</link>
+      <pubDate>Sun, 17 Mar 2019 14:08:09 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/posts/2019-03-17__new-initiative/</guid>
+      <description>After more than 3 years finding the right tools to allow crowd source writting in a simple way, without big servers, plugins, server-side code and databases, this time I have cracked it and this is the template to follow.
+Hugo static website generator in combination with GitHub to collaborate and Netlify to host it is the best possible scenario I have found.
+Let&amp;rsquo;s do this!
+Jordi Bares</description>
+    </item>
+    
+  </channel>
+</rss>

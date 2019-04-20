@@ -1,0 +1,288 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Markdown | Houdini Guides</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/normalize.min.css">
+
+<link rel="stylesheet" href="/book.min.4e3d380ee9abdce4d8d28b94f3e70cc32689fde8fc3758901f115e11d8e0baa0.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono|Open+Sans|Oswald|Quicksand|Fjalla+One|Voltaire|Lobster:100,200,300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://www.houdiniguides.com/">Houdini Guides</a>
+</h2>
+
+
+
+    
+
+
+  
+  
+    
+    
+  
+ 
+  <ul>
+    
+    <li><a href="/docs/about/">About</a> 
+  <ul>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/book/">Book</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/">Part 1</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/introduction/">
+    General Concepts</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/ui-layout/">Interface Layout</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/phylosophy/">Phylosophy</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/scene-organisation/">Scene Organisation</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/contexts/">Contexts</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/camera/">Camera</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/color-management/">Color Management</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/syntax/">Syntax</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/collaborating/">Collaborating</a> 
+  <ul>
+    
+    <li><a href="/docs/collaborating/authoring/">
+    Authoring</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/collaborating/authoring/config-system/">Config the System</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/markdown/" class="active">Markdown</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/styleguide/">Styleguide</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/components/">Components</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/screen-recording/">Screen Recording</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Markdown</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="markdown">Markdown</h1>
+
+<style>
+	.hg-preamble {
+		color: #868e96;
+		width: 90%;
+		padding: 0rem;
+		margin-top: 1.5rem;
+		margin-left: 0rem;
+		margin-bottom: 2rem;
+		position: relative;
+	}
+	.hg-preamble p {
+		color: #5c8799;
+		font-size: 1.4em;
+		font-family: inherit;
+		font-style: italic
+		font-weight: 100;
+		display: block;
+		line-height: 1.25em;
+		margin: 0rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+<div class="hg-preamble">
+	<p>
+Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats which is the crucial part for efficient authoring of content.
+</p> 
+</div>
+
+
+<p>So, after many months testing and deciding I settled with a static web generator that utilises <a href="https://notes.peter-baumgartner.net/archive/content-organisation/blackfriday-markdown/">Black Friday markdown</a> for all the writting.</p>
+
+<h2 id="markdown-guide">Markdown guide</h2>
+
+<p>Please read <a href="https://daringfireball.net/projects/markdown/syntax">John Gruber Markdown post</a> to get an idea of the syntax of this version of markdown used by Hugo.</p>
+
+<h2 id="writting-process">Writting process</h2>
+
+<p>The general idea is that you create a new post and write your text, include images and what not. This is later processed on publishing to generate pure HTML with some CSS and JS to bring some magic to the content.</p>
+
+<p>No databases, no special tokens nor plugings for easy authoring&hellip; fun right?</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div><a href="https://github.com/jordibares/houdini-guides-website/commit/b4b9add81b4440692cb1e99670866261f7f14440" title='Last modified 16 April 2019, 18:54 BST by Jordi Bares' target="_blank" rel="noopener">
+      <img src="/svg/code-merge.svg" /> 16 April 2019, 18:54 BST
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/jordibares/houdini-guides-website/edit/master/content/docs/collaborating/authoring/markdown/index.md" target="_blank" rel="noopener">
+      <img src="/svg/code-fork.svg" /> Edit this page
+    </a>
+  </div>
+  
+</div>
+
+
+      
+<div class="align-center book-git-footer justify-center">
+    <p>
+        Copyright Jordi Bares 2019
+    </p>
+</div>
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#markdown">Markdown</a>
+<ul>
+<li><a href="#markdown-guide">Markdown guide</a></li>
+<li><a href="#writting-process">Writting process</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-137420586-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

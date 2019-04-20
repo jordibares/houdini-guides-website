@@ -1,0 +1,1014 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interface Layout | Houdini Guides</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/normalize.min.css">
+
+<link rel="stylesheet" href="/book.min.4e3d380ee9abdce4d8d28b94f3e70cc32689fde8fc3758901f115e11d8e0baa0.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono|Open+Sans|Oswald|Quicksand|Fjalla+One|Voltaire|Lobster:100,200,300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://www.houdiniguides.com/">Houdini Guides</a>
+</h2>
+
+
+
+    
+
+
+  
+  
+    
+    
+  
+ 
+  <ul>
+    
+    <li><a href="/docs/about/">About</a> 
+  <ul>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/book/">Book</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/">Part 1</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/introduction/">
+    General Concepts</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/ui-layout/" class="active">Interface Layout</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/phylosophy/">Phylosophy</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/scene-organisation/">Scene Organisation</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/contexts/">Contexts</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/camera/">Camera</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/color-management/">Color Management</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/syntax/">Syntax</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/collaborating/">Collaborating</a> 
+  <ul>
+    
+    <li><a href="/docs/collaborating/authoring/">
+    Authoring</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/collaborating/authoring/config-system/">Config the System</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/markdown/">Markdown</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/styleguide/">Styleguide</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/components/">Components</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/screen-recording/">Screen Recording</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Interface Layout</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="interface-layout">Interface Layout</h1>
+
+<style>
+	.hg-pill--red {
+		color: white;
+		background: #cc0425;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--orange {
+		color: white;
+		background: #ff6554;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--green {
+		color: black;
+		background: #36ffce;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--petrol {
+		color: white;
+		background: #5c8799;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--blue {
+		color: white;
+		background: #1696cc;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+</style>
+
+
+
+	<div class="hg-pill--orange">
+
+Houdini v17.5
+
+	</div>
+
+<style>
+	.hg-preamble {
+		color: #868e96;
+		width: 90%;
+		padding: 0rem;
+		margin-top: 1.5rem;
+		margin-left: 0rem;
+		margin-bottom: 2rem;
+		position: relative;
+	}
+	.hg-preamble p {
+		color: #5c8799;
+		font-size: 1.4em;
+		font-family: inherit;
+		font-style: italic
+		font-weight: 100;
+		display: block;
+		line-height: 1.25em;
+		margin: 0rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+<div class="hg-preamble">
+	<p>
+You will notice Houdini's user interface puts lots of emphasis on the need to navigate complex scenes given it is a non-linear workflow you will also notice there are a few new ways to manipulate your objects and panels to understand what is going on.
+</p> 
+</div>
+
+
+<p>Like every single DCC application, Houdini&rsquo;s structure consists on a viewport, a working area and parameters area where you can tweak the your selection available data.</p>
+
+<p><img src="ui__1_empty.jpg" alt="Default UI Layout" /></p>
+
+<p>The main difference is that the working area is not an outliner or hierarchical represenatation of the scene, but rather a graphical represenatation of it and the varoius contexts availalbe (more on that later) produce variations of this working area.</p>
+
+<h2 id="components">Components</h2>
+
+<p>These are the main components of the interface;</p>
+
+<p><img src="ui__2_components.jpg" alt="UI Components" /></p>
+
+<h3 id="1-viewport-aka-scene-view">1 - Viewport aka Scene View</h3>
+
+<p>As with other 3D tools this is the space you interact with your objects in a direct way, more so in the latest versions as Side Effects have been putting a ton of effort to bring a version of Houdini to market that is more user friendly and therefore, more viewport centric.</p>
+
+<p>For this reason, expect to use the common tool you have on other packages in the form of manipulators, snapping, construction planes, etc&hellip;</p>
+
+<style>
+    .image-placeholder {
+        background-color: #eee;
+        display: flex;
+        height: 300px;
+        margin: 0px;
+        width: 750px;
+    }
+    .image-placeholder > note {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
+</style> 
+
+<div class="image-placeholder">
+    <note>
+Image of the Viewport with some visualizers on.
+</note>
+</div>
+
+<style>
+	.hg-alert--danger {
+		border-radius: 5px;
+		border-left: 3px solid #cc0425;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fedbe1;
+	}
+	.hg-alert--danger::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #fc94a6;
+		content: "!";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--danger p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--danger title {
+		color: #cc0425;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--warning {
+		border-radius: 5px;
+		border-left: 3px solid #ffd713;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fff8d9;
+	}
+	.hg-alert--warning::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #ffe774;
+		content: "w";
+		position: absolute;
+		left: 0.5rem;
+		top: -5rem;
+		z-index: 0;
+	}
+	.hg-alert--warning p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--warning title {
+		color: #f2cb10;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--info {
+		border-radius: 5px;
+		border-left: 3px solid #1696cc;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #e1f4fb;
+	}
+	.hg-alert--info::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #9ddaf3;
+		content: "i";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--info p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--info title {
+		color: #1696cc;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+
+	<div class="hg-alert--info">
+
+  <title>Recomendation</title>
+  <p>
+Your viewport's workflow is no substitute for working on the network view but certainly is going to be extremely helpful with the use of radial menus.
+</p>
+</div>
+
+<h3 id="2-working-area-aka-network-view">2 - Working area aka Network View</h3>
+
+<p>The working area is where you organise your scene, in the past all the operations were done here so it is highly polished and it is the main powerhouse. There is no real set order so you are pretty much free to have scenes that are easy to read and maintain or truly hard to maintain, up to you.
+My suggestion is, be tidy or you will pay for it later on.</p>
+
+<style>
+    .image-placeholder {
+        background-color: #eee;
+        display: flex;
+        height: 300px;
+        margin: 0px;
+        width: 750px;
+    }
+    .image-placeholder > note {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
+</style> 
+
+<div class="image-placeholder">
+    <note>
+Image of the network view with notes and netboxes
+</note>
+</div>
+
+<style>
+	.hg-alert--danger {
+		border-radius: 5px;
+		border-left: 3px solid #cc0425;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fedbe1;
+	}
+	.hg-alert--danger::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #fc94a6;
+		content: "!";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--danger p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--danger title {
+		color: #cc0425;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--warning {
+		border-radius: 5px;
+		border-left: 3px solid #ffd713;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fff8d9;
+	}
+	.hg-alert--warning::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #ffe774;
+		content: "w";
+		position: absolute;
+		left: 0.5rem;
+		top: -5rem;
+		z-index: 0;
+	}
+	.hg-alert--warning p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--warning title {
+		color: #f2cb10;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--info {
+		border-radius: 5px;
+		border-left: 3px solid #1696cc;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #e1f4fb;
+	}
+	.hg-alert--info::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #9ddaf3;
+		content: "i";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--info p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--info title {
+		color: #1696cc;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+
+	<div class="hg-alert--warning">
+
+  <title>Important</title>
+  <p>
+Make sure you find a compromise with your team as working using different styles can become an unnecessary burden.
+</p>
+</div>
+
+<h3 id="3-parameter-area-aka-parameter-view">3 - Parameter area aka Parameter View</h3>
+
+<p>This is the area that displays the parameters of whatever node you select, independetly of the context used. Remember that for practical reason, these parameters shown to you are really a subset of the parameters available so if you miss something, chances are it exists but simply has not been exposed.</p>
+
+<style>
+    .image-placeholder {
+        background-color: #eee;
+        display: flex;
+        height: 300px;
+        margin: 0px;
+        width: 750px;
+    }
+    .image-placeholder > note {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
+</style> 
+
+<div class="image-placeholder">
+    <note>
+Image of the parameters view SRT specially.
+</note>
+</div>
+
+<h3 id="4-prebundle-tools-aka-shelf-tools">4 - Prebundle tools aka Shelf Tools</h3>
+
+<p>SideFX provides a bunch of conveniently pre-packaged scripts to accelerate configuration of some tools and fast setups. These are very valuable, specially to learn.</p>
+
+<style>
+    .image-placeholder {
+        background-color: #eee;
+        display: flex;
+        height: 300px;
+        margin: 0px;
+        width: 750px;
+    }
+    .image-placeholder > note {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
+</style> 
+
+<div class="image-placeholder">
+    <note>
+Image of the shelf tool showing the dynamics shelf.
+</note>
+</div>
+
+<h3 id="5-timeline-tools">5 - Timeline Tools</h3>
+
+<p>The timeline tools are very similar to the ones found on any other package, and yes, you will find keyframe manipulations tools in there as well as SideFX have been revamping it recenctly and expanding the functionality of an already very good timeline.</p>
+
+<style>
+    .image-placeholder {
+        background-color: #eee;
+        display: flex;
+        height: 300px;
+        margin: 0px;
+        width: 750px;
+    }
+    .image-placeholder > note {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
+</style> 
+
+<div class="image-placeholder">
+    <note>
+Image of the timeline with keyframes and sections.
+</note>
+</div>
+
+<style>
+	.hg-alert--danger {
+		border-radius: 5px;
+		border-left: 3px solid #cc0425;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fedbe1;
+	}
+	.hg-alert--danger::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #fc94a6;
+		content: "!";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--danger p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--danger title {
+		color: #cc0425;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--warning {
+		border-radius: 5px;
+		border-left: 3px solid #ffd713;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #fff8d9;
+	}
+	.hg-alert--warning::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #ffe774;
+		content: "w";
+		position: absolute;
+		left: 0.5rem;
+		top: -5rem;
+		z-index: 0;
+	}
+	.hg-alert--warning p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--warning title {
+		color: #f2cb10;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+
+	.hg-alert--info {
+		border-radius: 5px;
+		border-left: 3px solid #1696cc;
+		color: #495057;
+		width: 100%;
+		position: relative;
+		padding: 1.1em;
+		margin-left: 0em;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		background: #e1f4fb;
+	}
+	.hg-alert--info::before {
+		font-family: Georgia, serif;
+		font-size: 6rem;
+		color: #9ddaf3;
+		content: "i";
+		position: absolute;
+		left: 1.5rem;
+		top: -3.8rem;
+		z-index: 0;
+	}
+	.hg-alert--info p {
+		color: #343a40;
+		font-size: 1em;
+		font-weight: 100;
+		display: block;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+	.hg-alert--info title {
+		color: #1696cc;
+		display: block;
+		font-size: 1.15em;
+		font-weight: 600;
+		line-height: 1.5em;
+		margin: 0.5rem;
+		margin-left: 4rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+
+	<div class="hg-alert--info">
+
+  <title>Recomendation</title>
+  <p>
+Explore the timeline tools carefully, they are far more powerful that you may think at first and close to Maya's ones too.
+</p>
+</div>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>As you can see you have a few more panels and tools to use and you can configure your own desktop so you feel more at home. In my particular case looks like this;</p>
+
+<style>
+    .image-placeholder {
+        background-color: #eee;
+        display: flex;
+        height: 300px;
+        margin: 0px;
+        width: 750px;
+    }
+    .image-placeholder > note {
+        align-self: center;
+        text-align: center;
+        width: 100%;
+    }
+</style> 
+
+<div class="image-placeholder">
+    <note>
+Image of my desktop.
+</note>
+</div>
+
+<p>In my paricular case I use <a href="http://houdinicreationdesk.ipage.com/index.html">Phil Spicer</a> desktop that offers more than purely aesthetic benefits but promotes the correct workflow across the software.</p>
+
+<h2 id="other-panels">Other Panels</h2>
+
+<p>These are the main pannels but we should be very aware there are some very important ones you should pay attention to, in particular I want to point you to these;</p>
+
+<dl>
+<dt>Geometry spreadsheet</dt>
+<dd>This panel allows you to inspect the geometry and all the attributes that are stored in its various entities. Vertices, polygons, the object itself, etc.. can have attributes and manipulating them is the bread and butter of Houdini so make sure you open this and play with it.</dd>
+<dt>Data tree</dt>
+<dd>This is a modern way to look at object, lights and data so you can manipulate them without having to go inside their networks every single time. You will find this extremely useful when you work on lighting.</dd>
+<dt>Render View</dt>
+<dd>This view is similar to the Maya IPR.</dd>
+<dt>Render Scheduler</dt>
+<dd>This panel allows you to keep track of what is being processed at the moment as you can have multiple renders in parallel and you may want to manage them.</dd>
+<dt>Bundles</dt>
+<dd>The bundles view is a strange oddity in Houdini because it is not very procedural at all but it is a fantastic way to group objects and abstract them from using them. Very handy for rendering workflows.</dd>
+</dl>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div><a href="https://github.com/jordibares/houdini-guides-website/commit/ef23f27b99b539916061d23e6ba051335207d5a1" title='Last modified 16 April 2019, 18:00 BST by Jordi Bares' target="_blank" rel="noopener">
+      <img src="/svg/code-merge.svg" /> 16 April 2019, 18:00 BST
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/jordibares/houdini-guides-website/edit/master/content/docs/book/part-1/introduction/ui-layout/index.md" target="_blank" rel="noopener">
+      <img src="/svg/code-fork.svg" /> Edit this page
+    </a>
+  </div>
+  
+</div>
+
+
+      
+<div class="align-center book-git-footer justify-center">
+    <p>
+        Copyright Jordi Bares 2019
+    </p>
+</div>
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#interface-layout">Interface Layout</a>
+<ul>
+<li><a href="#components">Components</a>
+<ul>
+<li><a href="#1-viewport-aka-scene-view">1 - Viewport aka Scene View</a></li>
+<li><a href="#2-working-area-aka-network-view">2 - Working area aka Network View</a></li>
+<li><a href="#3-parameter-area-aka-parameter-view">3 - Parameter area aka Parameter View</a></li>
+<li><a href="#4-prebundle-tools-aka-shelf-tools">4 - Prebundle tools aka Shelf Tools</a></li>
+<li><a href="#5-timeline-tools">5 - Timeline Tools</a></li>
+</ul></li>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#other-panels">Other Panels</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-137420586-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

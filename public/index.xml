@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Houdini Guides</title>
+    <link>https://www.houdiniguides.com/</link>
+    <description>Recent content in Introduction on Houdini Guides</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://www.houdiniguides.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Config the System</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/config-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/config-system/</guid>
+      <description>Configuring the system  .hg-preamble { color: #868e96; width: 90%; padding: 0rem; margin-top: 1.5rem; margin-left: 0rem; margin-bottom: 2rem; position: relative; } .hg-preamble p { color: #5c8799; font-size: 1.4em; font-family: inherit; font-style: italic font-weight: 100; display: block; line-height: 1.25em; margin: 0rem; padding: 0rem; position: relative; z-index: 2; }   As a collaborator you will want to utilise the same approach I use when authoring content, here you can find some information on how to prepare and configure the necessary tools.</description>
+    </item>
+    
+    <item>
+      <title>Interface Layout</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/ui-layout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/ui-layout/</guid>
+      <description>Interface Layout  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/markdown/</guid>
+      <description>Markdown  .hg-preamble { color: #868e96; width: 90%; padding: 0rem; margin-top: 1.5rem; margin-left: 0rem; margin-bottom: 2rem; position: relative; } .hg-preamble p { color: #5c8799; font-size: 1.4em; font-family: inherit; font-style: italic font-weight: 100; display: block; line-height: 1.25em; margin: 0rem; padding: 0rem; position: relative; z-index: 2; }   Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats which is the crucial part for efficient authoring of content.</description>
+    </item>
+    
+    <item>
+      <title>Phylosophy</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/phylosophy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/phylosophy/</guid>
+      <description>Phylosophy  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Scene Organisation</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/scene-organisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/scene-organisation/</guid>
+      <description>Scene Organisation  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Contexts</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/contexts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/contexts/</guid>
+      <description>Contexts  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Styleguide</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/styleguide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/styleguide/</guid>
+      <description>Style Guide  .hg-preamble { color: #868e96; width: 90%; padding: 0rem; margin-top: 1.5rem; margin-left: 0rem; margin-bottom: 2rem; position: relative; } .hg-preamble p { color: #5c8799; font-size: 1.4em; font-family: inherit; font-style: italic font-weight: 100; display: block; line-height: 1.25em; margin: 0rem; padding: 0rem; position: relative; z-index: 2; }   Reading online is very different from reading on printed form, for this reason it is very important to be brief, direct and write in a non-condescending tone, building using our base structure is also very important, for this reason here you have some pointers on how to deal with it.</description>
+    </item>
+    
+    <item>
+      <title>Camera</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/camera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/camera/</guid>
+      <description>Camera  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Components</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/components/</guid>
+      <description>Components  .hg-preamble { color: #868e96; width: 90%; padding: 0rem; margin-top: 1.5rem; margin-left: 0rem; margin-bottom: 2rem; position: relative; } .hg-preamble p { color: #5c8799; font-size: 1.4em; font-family: inherit; font-style: italic font-weight: 100; display: block; line-height: 1.25em; margin: 0rem; padding: 0rem; position: relative; z-index: 2; }   Given the nature of online reading it is important as an author that you master both markdown and the special components I have created, here is a quick cheatsheet of them.</description>
+    </item>
+    
+    <item>
+      <title>Color Management</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/color-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/color-management/</guid>
+      <description>Color Management  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>Screen Recording</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/screen-recording/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/screen-recording/</guid>
+      <description>Screen Recording Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+Import Import allows you to include external files in the document which is very helpful when dealing with very long scripts that you want to be able to download and execute later on.</description>
+    </item>
+    
+    <item>
+      <title>Syntax</title>
+      <link>https://www.houdiniguides.com/docs/book/part-1/introduction/syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/book/part-1/introduction/syntax/</guid>
+      <description>Syntax  .hg-pill--red { color: white; background: #cc0425; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--orange { color: white; background: #ff6554; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .hg-pill--green { color: black; background: #36ffce; font-size: 10px; display: inline-block; padding: 4px 9px; margin-left: 0em; margin-top: 2em; margin-bottom: 1em; text-transform: uppercase; border-radius: 5px; vertical-align: baseline; position: relative; top: -3px; } .</description>
+    </item>
+    
+    <item>
+      <title>New Initiative</title>
+      <link>https://www.houdiniguides.com/posts/2019-03-17__new-initiative/</link>
+      <pubDate>Sun, 17 Mar 2019 14:08:09 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/posts/2019-03-17__new-initiative/</guid>
+      <description>After more than 3 years finding the right tools to allow crowd source writting in a simple way, without big servers, plugins, server-side code and databases, this time I have cracked it and this is the template to follow.
+Hugo static website generator in combination with GitHub to collaborate and Netlify to host it is the best possible scenario I have found.
+Let&amp;rsquo;s do this!
+Jordi Bares</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<div class="hg-accordion">
+	{{ $number := .Get "number" }}
+	{{ range $index, $num := (seq $number) }}
+		{{ $indexStartingAt1 := (add $index 1) }}
+		{{ $title := printf "title%d" $indexStartingAt1 }}
+		{{ $content := printf "content%d" $indexStartingAt1 }}
+		{{ $toggle := printf "toggle%d" $indexStartingAt1}}
+
+		<div class="hg-option">
+			<input type="checkbox" id={{ $toggle }} class="hg-toggle" />
+			<label class="hg-title" for={{ $toggle }}>{{ $.Get $title }}</label>
+			<div class="hg-content">
+				<p>{{ $.Get $content }}</p>
+			</div>
+		</div>
+	{{ end }}
+</div>
+{{ .Inner }}

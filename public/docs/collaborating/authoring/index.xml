@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authoring on Houdini Guides</title>
+    <link>https://www.houdiniguides.com/docs/collaborating/authoring/</link>
+    <description>Recent content in Authoring on Houdini Guides</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="https://www.houdiniguides.com/docs/collaborating/authoring/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Config the System</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/config-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/config-system/</guid>
+      <description>Configuring the system  .hg-preamble { color: #868e96; width: 90%; padding: 0rem; margin-top: 1.5rem; margin-left: 0rem; margin-bottom: 2rem; position: relative; } .hg-preamble p { color: #5c8799; font-size: 1.4em; font-family: inherit; font-style: italic font-weight: 100; display: block; line-height: 1.25em; margin: 0rem; padding: 0rem; position: relative; z-index: 2; }   As a collaborator you will want to utilise the same approach I use when authoring content, here you can find some information on how to prepare and configure the necessary tools.</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/markdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/markdown/</guid>
+      <description>Markdown  .hg-preamble { color: #868e96; width: 90%; padding: 0rem; margin-top: 1.5rem; margin-left: 0rem; margin-bottom: 2rem; position: relative; } .hg-preamble p { color: #5c8799; font-size: 1.4em; font-family: inherit; font-style: italic font-weight: 100; display: block; line-height: 1.25em; margin: 0rem; padding: 0rem; position: relative; z-index: 2; }   Markdown is a lightweight markup language with plain text formatting syntax. Its design allows it to be converted to many output formats which is the crucial part for efficient authoring of content.</description>
+    </item>
+    
+    <item>
+      <title>Styleguide</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/styleguide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/styleguide/</guid>
+      <description>Style Guide  .hg-preamble { color: #868e96; width: 90%; padding: 0rem; margin-top: 1.5rem; margin-left: 0rem; margin-bottom: 2rem; position: relative; } .hg-preamble p { color: #5c8799; font-size: 1.4em; font-family: inherit; font-style: italic font-weight: 100; display: block; line-height: 1.25em; margin: 0rem; padding: 0rem; position: relative; z-index: 2; }   Reading online is very different from reading on printed form, for this reason it is very important to be brief, direct and write in a non-condescending tone, building using our base structure is also very important, for this reason here you have some pointers on how to deal with it.</description>
+    </item>
+    
+    <item>
+      <title>Components</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/components/</guid>
+      <description>Components  .hg-preamble { color: #868e96; width: 90%; padding: 0rem; margin-top: 1.5rem; margin-left: 0rem; margin-bottom: 2rem; position: relative; } .hg-preamble p { color: #5c8799; font-size: 1.4em; font-family: inherit; font-style: italic font-weight: 100; display: block; line-height: 1.25em; margin: 0rem; padding: 0rem; position: relative; z-index: 2; }   Given the nature of online reading it is important as an author that you master both markdown and the special components I have created, here is a quick cheatsheet of them.</description>
+    </item>
+    
+    <item>
+      <title>Screen Recording</title>
+      <link>https://www.houdiniguides.com/docs/collaborating/authoring/screen-recording/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.houdiniguides.com/docs/collaborating/authoring/screen-recording/</guid>
+      <description>Screen Recording Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes. Miseratus fonte Ditis conubia.
+Import Import allows you to include external files in the document which is very helpful when dealing with very long scripts that you want to be able to download and execute later on.</description>
+    </item>
+    
+  </channel>
+</rss>

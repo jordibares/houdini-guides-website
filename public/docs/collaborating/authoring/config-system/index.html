@@ -1,0 +1,364 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Config the System | Houdini Guides</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/normalize.min.css">
+
+<link rel="stylesheet" href="/book.min.4e3d380ee9abdce4d8d28b94f3e70cc32689fde8fc3758901f115e11d8e0baa0.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono|Open+Sans|Oswald|Quicksand|Fjalla+One|Voltaire|Lobster:100,200,300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://www.houdiniguides.com/">Houdini Guides</a>
+</h2>
+
+
+
+    
+
+
+  
+  
+    
+    
+  
+ 
+  <ul>
+    
+    <li><a href="/docs/about/">About</a> 
+  <ul>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/book/">Book</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/">Part 1</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/introduction/">
+    General Concepts</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/ui-layout/">Interface Layout</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/phylosophy/">Phylosophy</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/scene-organisation/">Scene Organisation</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/contexts/">Contexts</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/camera/">Camera</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/color-management/">Color Management</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/syntax/">Syntax</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/collaborating/">Collaborating</a> 
+  <ul>
+    
+    <li><a href="/docs/collaborating/authoring/">
+    Authoring</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/collaborating/authoring/config-system/" class="active">Config the System</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/markdown/">Markdown</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/styleguide/">Styleguide</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/components/">Components</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/screen-recording/">Screen Recording</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Config the System</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="configuring-the-system">Configuring the system</h1>
+
+<style>
+	.hg-preamble {
+		color: #868e96;
+		width: 90%;
+		padding: 0rem;
+		margin-top: 1.5rem;
+		margin-left: 0rem;
+		margin-bottom: 2rem;
+		position: relative;
+	}
+	.hg-preamble p {
+		color: #5c8799;
+		font-size: 1.4em;
+		font-family: inherit;
+		font-style: italic
+		font-weight: 100;
+		display: block;
+		line-height: 1.25em;
+		margin: 0rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+<div class="hg-preamble">
+	<p>
+As a collaborator you will want to utilise the same approach I use when authoring content, here you can find some information on how to prepare and configure the necessary tools.
+</p> 
+</div>
+
+
+<p>In order to author you need three things in your computer;</p>
+
+<dl>
+<dt>Brew</dt>
+<dd>This is a software package manager</dd>
+<dt>Hugo</dt>
+<dd>This is the web engine or more precisely, the static wedbsite generator</dd>
+<dt>GitHub</dt>
+<dd>The remote repository where the book is hosted and managed.</dd>
+</dl>
+
+<h2 id="install-brew-on-mac-osx">Install Brew on Mac OSX</h2>
+
+<p>We first need to install Brew which is a package manager and will allow you to configure your mac in a comfortable way, it is really cool actually.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/usr/bin/ruby -e <span style="color:#d88200">&#34;</span><span style="color:#00a8c8">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span style="color:#00a8c8">)</span><span style="color:#d88200">&#34;</span></code></pre></div>
+<p>For more information have a look at <a href="https://brew.sh">Brew</a></p>
+
+<h2 id="install-hugo-on-mac-osx">Install Hugo on Mac OSX</h2>
+
+<p>The Houdini Guides uses Hugo which is a static web page generator, a kind of clever conversion from markdown to html which renders websites that are very light and fast becuase they don&rsquo;t use databases, only front-end stuff.</p>
+
+<p>Please read this as well <a href="https://gohugo.io/getting-started/installing/">Installing Hugo</a></p>
+
+<p>Let&rsquo;s install Hugo like this&hellip;</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">brew install hugo</code></pre></div>
+<p>Now you will be able to run hugo and test your posts, for information have a look at <a href="https://gohugo.io">Hugo</a></p>
+
+<h1 id="configuring-git">Configuring Git</h1>
+
+<p>The recommended approach is to fork the repository and do your chanes in there, once you are happy with your content to push it back to GitHub and do a Pull Request so I can merge your branch with the master one.</p>
+
+<h2 id="create-a-github-account">Create a GitHub account</h2>
+
+<p>You need to create a <a href="https://github.com">GitHub</a> acocunt if you don&rsquo;t have one already before proceeding, this is how.</p>
+
+<p>If you don&rsquo;t know GitHub I will strongly suggest you check the various <a href="https://www.youtube.com/githubguides">GitHub Official Training Guides</a> or other <a href="https://www.youtube.com/watch?v=SWYqp7iY_Tc">YouTube tutorials</a> and <a href="https://guides.github.com/introduction/flow/">online git books</a> and <a href="https://launchschool.com/books/git/read/introduction">onlinne gihub books</a> which surely will help you, not only to collaborate but on your own projects.</p>
+
+<h2 id="how-to-fork-a-repository">How to fork a repository</h2>
+
+<p>The best thing to do is to go to the (GitHub help pages](<a href="https://help.github.com/en/articles/fork-a-repo">https://help.github.com/en/articles/fork-a-repo</a>) on how to fork a repository and the cloning proces.</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; git clone https://github.com/&lt;YOUR-GITHUB-USERNAME&gt;/houdini-guides</code></pre></div>
+<p>Now you will have a clone of your own version of the houdini-guides in your local drive, you can do whatever you want here without fear or breaking anything at all.</p>
+
+<h1 id="authoring-workflow">Authoring workflow</h1>
+
+<h2 id="create-a-new-post">Create a new post</h2>
+
+<p>Create new posts using the correct structure is not hard, just have a look at the book structure that has been downloaded and you will see quite clearly how things are setup.</p>
+
+<p>For example, to create a chapter on the animation part-2</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; hugo new post book/part-2/animation/keyframing/index.md</code></pre></div>
+<p>Will create a chapter under the animation block and the indes.md is the document you need to add your text, images and what not.</p>
+
+<p>Please check the markdown guid and the style guide to find more about it.</p>
+
+<h2 id="publishing-your-changes">Publishing your changes</h2>
+
+<p>Once you are done with the content, double checked your grammar, typos and what not (I recommend using Grammarly for this), you can publish it to your GitHub repository like this</p>
+<div class="highlight"><pre style="color:#272822;background-color:#fafafa;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">&gt; git add --all
+&gt; git commit -m <span style="color:#d88200">&#34;New keyframing chapter under animation&#34;</span>
+&gt; git push</code></pre></div>
+<h2 id="doing-a-pull-request">Doing a Pull Request</h2>
+
+<p>Now go to the original <a href="https://github.com/jordibares/houdini-guides-website">GitHub Houdinig Guides repository</a> and click on <a href="https://github.com/jordibares/houdini-guides-website/pulls">Pull request</a>;</p>
+
+<p><img src="config-git__2_pull-request.jpg" alt="Pull Request Menu" /></p>
+
+<h2 id="checking-the-merge">Checking the merge</h2>
+
+<p>Please check the notes I may do on the pull request tab as I may need you to tweak things.</p>
+
+<h2 id="keeping-up-to-date">Keeping up to date</h2>
+
+<p>Once I have merged those many branch changes (including yours) onto the main one, you will want to sync it with yours to keep with the main oficial release.</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div><a href="https://github.com/jordibares/houdini-guides-website/commit/b4b9add81b4440692cb1e99670866261f7f14440" title='Last modified 16 April 2019, 18:54 BST by Jordi Bares' target="_blank" rel="noopener">
+      <img src="/svg/code-merge.svg" /> 16 April 2019, 18:54 BST
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/jordibares/houdini-guides-website/edit/master/content/docs/collaborating/authoring/config-system/index.md" target="_blank" rel="noopener">
+      <img src="/svg/code-fork.svg" /> Edit this page
+    </a>
+  </div>
+  
+</div>
+
+
+      
+<div class="align-center book-git-footer justify-center">
+    <p>
+        Copyright Jordi Bares 2019
+    </p>
+</div>
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#configuring-the-system">Configuring the system</a>
+<ul>
+<li><a href="#install-brew-on-mac-osx">Install Brew on Mac OSX</a></li>
+<li><a href="#install-hugo-on-mac-osx">Install Hugo on Mac OSX</a></li>
+</ul></li>
+<li><a href="#configuring-git">Configuring Git</a>
+<ul>
+<li><a href="#create-a-github-account">Create a GitHub account</a></li>
+<li><a href="#how-to-fork-a-repository">How to fork a repository</a></li>
+</ul></li>
+<li><a href="#authoring-workflow">Authoring workflow</a>
+<ul>
+<li><a href="#create-a-new-post">Create a new post</a></li>
+<li><a href="#publishing-your-changes">Publishing your changes</a></li>
+<li><a href="#doing-a-pull-request">Doing a Pull Request</a></li>
+<li><a href="#checking-the-merge">Checking the merge</a></li>
+<li><a href="#keeping-up-to-date">Keeping up to date</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-137420586-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

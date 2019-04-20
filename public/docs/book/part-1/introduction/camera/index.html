@@ -1,0 +1,407 @@
+<!DOCTYPE html><html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Camera | Houdini Guides</title>
+
+
+<link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono:300,400,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/normalize.min.css">
+
+<link rel="stylesheet" href="/book.min.4e3d380ee9abdce4d8d28b94f3e70cc32689fde8fc3758901f115e11d8e0baa0.css">
+
+
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  <link href="https://fonts.googleapis.com/css?family=Oxygen|Oxygen+Mono|Open+Sans|Oswald|Quicksand|Fjalla+One|Voltaire|Lobster:100,200,300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <input type="checkbox" style="display: none" id="menu-control" />
+  <main class="flex container">
+
+    <aside class="book-menu fixed">
+      <nav role="navigation">
+<h2 class="book-brand">
+  <a href="https://www.houdiniguides.com/">Houdini Guides</a>
+</h2>
+
+
+
+    
+
+
+  
+  
+    
+    
+  
+ 
+  <ul>
+    
+    <li><a href="/docs/about/">About</a> 
+  <ul>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/book/">Book</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/">Part 1</a> 
+  <ul>
+    
+    <li><a href="/docs/book/part-1/introduction/">
+    General Concepts</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/ui-layout/">Interface Layout</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/phylosophy/">Phylosophy</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/scene-organisation/">Scene Organisation</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/contexts/">Contexts</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/camera/" class="active">Camera</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/color-management/">Color Management</a>
+    </li>
+    
+    <li>
+      <a href="/docs/book/part-1/introduction/syntax/">Syntax</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+    <li><a href="/docs/collaborating/">Collaborating</a> 
+  <ul>
+    
+    <li><a href="/docs/collaborating/authoring/">
+    Authoring</a> 
+  <ul>
+    
+
+    
+    <li>
+      <a href="/docs/collaborating/authoring/config-system/">Config the System</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/markdown/">Markdown</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/styleguide/">Styleguide</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/components/">Components</a>
+    </li>
+    
+    <li>
+      <a href="/docs/collaborating/authoring/screen-recording/">Screen Recording</a>
+    </li>
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+    </li>
+    
+
+    
+  </ul>
+
+
+
+
+
+
+
+
+</nav>
+    </aside>
+
+    <div class="book-page">
+      <header class="align-center justify-between book-header">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" />
+  </label>
+  <strong>Camera</strong>
+</header>
+
+      
+<article class="markdown">
+
+<h1 id="camera">Camera</h1>
+
+<style>
+	.hg-pill--red {
+		color: white;
+		background: #cc0425;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--orange {
+		color: white;
+		background: #ff6554;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--green {
+		color: black;
+		background: #36ffce;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--petrol {
+		color: white;
+		background: #5c8799;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+
+	.hg-pill--blue {
+		color: white;
+		background: #1696cc;
+		font-size: 10px;
+		display: inline-block;
+		padding: 4px 9px;
+		margin-left: 0em;
+		margin-top: 2em;
+		margin-bottom: 1em;
+		text-transform: uppercase;
+		border-radius: 5px;
+		vertical-align: baseline;
+		position: relative;
+		top: -3px;
+	}
+</style>
+
+
+
+	<div class="hg-pill--petrol">
+
+All Versions
+
+	</div>
+
+<style>
+	.hg-preamble {
+		color: #868e96;
+		width: 90%;
+		padding: 0rem;
+		margin-top: 1.5rem;
+		margin-left: 0rem;
+		margin-bottom: 2rem;
+		position: relative;
+	}
+	.hg-preamble p {
+		color: #5c8799;
+		font-size: 1.4em;
+		font-family: inherit;
+		font-style: italic
+		font-weight: 100;
+		display: block;
+		line-height: 1.25em;
+		margin: 0rem;
+		padding: 0rem;
+		position: relative;
+		z-index: 2;
+	}
+</style>
+
+<div class="hg-preamble">
+	<p>
+Cameras in Houdini are different from those on other applications, let's have a look at how these relate so you can become familiar with them.
+</p> 
+</div>
+
+
+<p>One of the first things you will notice is that the camera in Houdini, like every in every other package, is slightly different so here is a quick refresher.</p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Maya</th>
+<th align="center">Houdini</th>
+<th align="left">Conversion formulas</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">Focal Length</td>
+<td align="center">Focal Length</td>
+<td align="left">f = (d/2) * cot (a/2) where f is focal length in mm</td>
+</tr>
+
+<tr>
+<td align="center">Camera Aperture</td>
+<td align="center">Aperture</td>
+<td align="left">a = 2 * arctan (d/2*f) where d = film size in mm</td>
+</tr>
+
+<tr>
+<td align="center">Angle of View</td>
+<td align="center">-n/a-</td>
+<td align="left">You will have to derive it from the previous formulas</td>
+</tr>
+
+<tr>
+<td align="center">Film Offset</td>
+<td align="center">Screen Window X/Y</td>
+<td align="left">1 houdini unit = Aperture * (Maya)</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="notes">Notes</h2>
+
+<p>Remember to</p>
+</article>
+
+      
+<div class="align-center book-git-footer justify-between">
+  
+  <div><a href="https://github.com/jordibares/houdini-guides-website/commit/ef23f27b99b539916061d23e6ba051335207d5a1" title='Last modified 16 April 2019, 18:00 BST by Jordi Bares' target="_blank" rel="noopener">
+      <img src="/svg/code-merge.svg" /> 16 April 2019, 18:00 BST
+    </a>
+  </div>
+  
+  
+  <div>
+    <a href="https://github.com/jordibares/houdini-guides-website/edit/master/content/docs/book/part-1/introduction/camera/index.md" target="_blank" rel="noopener">
+      <img src="/svg/code-fork.svg" /> Edit this page
+    </a>
+  </div>
+  
+</div>
+
+
+      
+<div class="align-center book-git-footer justify-center">
+    <p>
+        Copyright Jordi Bares 2019
+    </p>
+</div>
+    </div>
+
+    
+  
+  
+  <aside class="book-toc fixed">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#camera">Camera</a>
+<ul>
+<li><a href="#notes">Notes</a></li>
+</ul></li>
+</ul>
+</nav>
+  </aside>
+
+
+
+  </main>
+  
+  
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-137420586-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+
+</html>

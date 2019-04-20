@@ -146,7 +146,7 @@ Colons are used to align colmuns
 
 ```
 | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| :------------ |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
@@ -156,7 +156,7 @@ Which will render as
 
 
 | Tables        |      Are      |   Cool |
-| --------------|:-------------:|-------:|
+| :-------------|:-------------:|-------:|
 | col 3 is      | right-aligned |  $1600 |
 | col 2 is      |   centered    |    $12 |
 | zebra stripes |   are neat    |     $1 |
@@ -555,58 +555,37 @@ Which will be rendered like this.
 >}}
 {{< /tabs >}}
 
-
 ---
 
 ### Acordeon
 
 ``` html
-  <div class="accordion">
-    <div class="option">
-      <input type="checkbox" id="toggle1" class="toggle" />
-      <label class="title" for="toggle1">Well, hello there</label>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-    </div>
-    <div class="option">
-      <input type="checkbox" id="toggle2" class="toggle" />
-      <label class="title" for="toggle2">I am here to assist you</label>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      </div>
-    </div>
-    <div class="option">
-      <input type="checkbox" id="toggle3" class="toggle" />
-      <label class="title" for="toggle3">Let's get started</label>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-      </div>
-    </div>
-  </div>
+{{ < accordion number="3"
+
+    title1="MacOSX"
+    content1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor." 
+
+    title2="Linux"
+    content2="Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui."
+
+    title3="Windows"
+    content3="Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui."
+    
+ > }}
+{{ < /accordion > }}
 ```
 
----
+{{< accordion number="3"
 
-### Import
+    title1="Step 1"
+    content1="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor." 
 
-Import allows you to include external files in the document which is very helpful when dealing with very long scripts that you want to be able to download and execute later on.
+    title2="Step 2"
+    content2="Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui."
 
-```
-{{ % import file="/static/python/example.py" language="python" % }}
-```
-
-Resulting in printing the contents of the files /static/pyhon/example.py
-
-{{% import file="/static/python/example.py" language="python" %}}
-
-Of course you can also include the files as they are by tagging them as markdown with the "language" attribute, likes this...
-
-```
-{{ % import file="/static/md/lorem-ipsum.md" language="md" % }}
-```
-
-Which will render the content of the file, acting as a pure import... like this...
-
-{{% import file="/static/md/lorem-ipsum.md" language="md" %}}
+    title3="Step 3"
+    content3="Ea aliquip in reprehenderit eiusmod labore veniam qui enim commodo mollit cillum. Maecenas consequat id velit quis vestibulum. Nam id orci eu urna mollis porttitor. Nunc nisi ante, gravida at velit eu, aliquet sodales dui."
+    
+ >}}
+{{< /accordion >}}
 
