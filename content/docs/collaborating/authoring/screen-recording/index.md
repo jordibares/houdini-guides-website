@@ -40,4 +40,4 @@ Of course you can also include the files as they are by tagging them as markdown
 
 Which will render the content of the file, acting as a pure import... like this...
 
-{{% import file="/static/md/lorem-ipsum.md" language="md" %}}
+{{ % import file="/static/md/lorem-ipsum.md" language="md" % }}

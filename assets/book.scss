@@ -21,26 +21,32 @@ body {
 
 h1 {
   font-size: $font-size-50;
+  color: $color-blue;
 }
 
 h2 {
   font-size: $font-size-34;
+  color: $color-blue; 
 }
 
 h3 {
   font-size: $font-size-28;
+  color: $color-blue;
 }
 
 h4 {
   font-size: $font-size-24;
+  color: $color-blue; 
 }
 
 h5 {
   font-size: $font-size-22;
+  color: $color-petrol; 
 }
 
 h6 {
   font-size: $font-size-18;
+  color: $color-petrol; 
 }
 
 hr { display: block;
@@ -81,7 +87,7 @@ a {
 
 img {
   padding: 1px;
-  border: 1px solid $gray-500
+  border: 1px solid $gray-200
 }
 
 .logo {
@@ -96,7 +102,7 @@ aside nav ul {
   list-style: none;
 
   li {
-    margin: 1em 0;
+    margin: .75em 0;
   }
 
   a {
@@ -108,7 +114,7 @@ aside nav ul {
   }
 
   ul {
-    padding-left: $padding-16;
+    padding-left: $padding-8;
   }
 }
 
@@ -164,7 +170,6 @@ ul.pagination {
   nav {
     width: $toc-width;
     padding: $padding-16;
-
     @include fixed;
   }
 

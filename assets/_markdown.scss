@@ -100,9 +100,10 @@ $block-border-radius: 0.25rem;
   }
 
   table {
-    width: 100%;
+    width: 90%;
     border-spacing: 0;
     border-collapse: collapse;
+    margin-left: 4%;
 
     tr th {
       padding: $padding-8 $padding-16;
