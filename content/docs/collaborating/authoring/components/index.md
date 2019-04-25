@@ -276,9 +276,9 @@ Which will result in
 
 ---
 
-### Code
+### Inline Code
 
-If you have inline code blocks, wrap them in backticks:
+We promote two different narratives, when you are doing little examples that are not completely independent, use for inline code blocks, wrap them in backticks:
 
 ```
 `var example = true`.
@@ -313,6 +313,8 @@ And if you'd like to use syntax highlighting, include the language:
 if (isAwesome):
   return true
 ```
+
+For scripts and others that are functioning and could be downloaded, better use the shortode provided (you can see it in action at the bottom of this document)
 
 ---
 
@@ -589,3 +591,42 @@ Which will be rendered like this.
  >}}
 {{< /accordion >}}
 
+
+---
+
+### Code examples
+
+Sometimes you want the user to be able to copy the code, for this a more advanced shortcode tool is provided.
+
+``` go
+{{ < code file="example.py" language="python" > }}
+```
+ 
+which renders like;
+
+{{< code file="example.py" language="python" >}}
+
+---
+
+### Import
+
+Import allows you to include external files in the document which is very helpful when dealing with very long scripts that you want to be able to download and execute later on.
+
+```
+{{ % import file="/static/python/example.py" language="python" % }}
+```
+
+Resulting in printing the contents of the files /static/pyhon/example.py
+
+{{% import file="/static/python/example.py" language="python" %}}
+
+
+Of course you can also include the files as they are by tagging them as markdown with the "language" attribute, likes this...
+
+```
+{{ % import file="/static/md/lorem-ipsum.md" language="md" % }}
+```
+
+Which will render the content of the file, acting as a pure import... like this...
+
+{{% import file="/static/md/lorem-ipsum.md" language="md" %}}

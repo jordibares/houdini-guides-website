@@ -9,17 +9,20 @@ tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
+
 # Part 2
 
-Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.
+{{< pill color="petrol" >}}
+All Versions
+{{< /pill >}}
 
-<br/>
+{{< preamble >}}
+Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.
+{{< /preamble >}}
 
 ## Animation
 
 Like
-
-<br/>
 
 ## Rigging
 

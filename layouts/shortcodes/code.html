@@ -1,0 +1,35 @@
+<style>
+  code {
+    font-family: "Oxygen Mono", monospace;
+    font-size: .80rem;
+  }
+</style>
+
+{{ $p := .Page }}
+{{ $file := .Get "file" }}
+{{ $codelang := .Get "language" | default (path.Ext $file | strings.TrimPrefix ".") }} 
+{{ $fileDir := path.Split $file }}
+{{ $bundlePath := path.Join .Page.File.Dir $fileDir.Dir }}
+{{ $filename := printf "/content/examples/%s" $file | safeURL }}
+{{ $ghlink := printf "https://%s/master%s" site.Params.githubwebsiteraw $filename | safeURL }}
+{{/* First assume this is a bundle and the file is inside it. */}}
+{{ $resource := $p.Resources.GetMatch (printf "%s*" $file ) }}
+{{ with $resource }}
+{{ $.Scratch.Set "content" .Content }}
+{{ else }}
+{{/* Read the file relative to the content root. */}}
+{{ $resource := readFile $filename}}
+{{ with $resource }}{{ $.Scratch.Set "content" . }}{{ end }}
+{{ end }}
+{{ if not ($.Scratch.Get "content") }}
+{{ errorf "[%s] %q not found in %q" site.Language.Lang $fileDir.File $bundlePath }}
+{{ end }}
+{{ with $.Scratch.Get "content" }}
+
+<div class="includecode" id="{{ $file | anchorize }}">
+    <code style="position: relative;top:18px;padding-top:4px;padding-left:12px;padding-right:12px;padding-bottom:12px;">
+    {{ $file }}
+    </code>
+
+    {{ highlight . $codelang "" }}
+{{ end }}

@@ -10,7 +10,13 @@ writer: "Jordi Bares"
 
 # Part 1
 
+{{< pill color="petrol" >}}
+All Versions
+{{< /pill >}}
+
+{{< preamble >}}
 Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.
+{{< /preamble >}}
 
 ## Introduction
 

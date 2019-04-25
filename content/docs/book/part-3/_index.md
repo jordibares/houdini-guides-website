@@ -9,17 +9,21 @@ tags: ["All Versions"]
 
 writer: "Jordi Bares"
 ---
+
 # Part 3
 
-Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.
 
-<br/>
+{{< pill color="petrol" >}}
+All Versions
+{{< /pill >}}
+
+{{< preamble >}}
+Before we start with the details, it is important to build a foundation of key concepts and procedures so you understand how Houdini operates.
+{{< /preamble >}}
 
 ## Data Management
 
 Like
-
-<br/>
 
 ## Digital Assets
 
