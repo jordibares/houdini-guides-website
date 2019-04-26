@@ -9,6 +9,7 @@ tags: ["H17.5"]
 
 writer: "Jordi Bares"
 ---
+
 # Modelling
 
 Modelling in Houdini is certainly getting better and better on every version and alhtough you will miss a few things from your favourite software (may be even more than just a few), the truth is that the full power comes when you mix both, traditional and procedural methods to build things.

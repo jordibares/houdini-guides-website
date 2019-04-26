@@ -8,6 +8,7 @@ tags: ["H17.5"]
 
 writer: "Jordi Bares"
 ---
+
 # Shading
 
 ## Principled shader
@@ -25,5 +26,3 @@ _to do_
 ## Material libraries strategies
 
 _to do_
-
-

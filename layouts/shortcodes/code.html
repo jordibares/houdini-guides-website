@@ -27,9 +27,11 @@
 {{ with $.Scratch.Get "content" }}
 
 <div class="includecode" id="{{ $file | anchorize }}">
-    <code style="position: relative;top:18px;padding-top:4px;padding-left:12px;padding-right:12px;padding-bottom:12px;">
-    {{ $file }}
-    </code>
+	<code
+		style="position: relative;top:18px;padding-top:4px;padding-left:12px;padding-right:12px;padding-bottom:12px;"
+	>
+		{{ $file }}
+	</code>
 
-    {{ highlight . $codelang "" }}
-{{ end }}
+	{{ highlight . $codelang "" }} {{ end }}
+</div>
