@@ -151,5 +151,5 @@
 	<div class="hg-alert--info">
 {{ end }}
   <title>{{.Get "title"}}</title>
-  <p>{{ .Inner }}</p>
+  <p>{{ .Inner | markdownify }}</p>
 </div>

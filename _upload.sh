@@ -2,6 +2,9 @@
 
 echo -e "\033[0;32mUploading updates to GitHub...\033[0m"
 
+# Remove silly DS_Store
+find . -name ".DS_Store" -type f -depth -exec rm {} \;
+
 # Add changes to git.
 git add .
 
