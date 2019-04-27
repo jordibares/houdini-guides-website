@@ -1,13 +1,15 @@
 {{ define "main" }}
+  <h1>Blog</h1>
   {{ $dateFormat := default "2 January 2006" .Site.Params.BookDateFormat }}
   {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
   {{ range sort .Paginator.Pages }}
+
   <article class="markdown">
-    <h3>
+    <h2>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    </h3>
+    </h2>
     <h6>
-      {{ .Date.Format $dateFormat }}
+      // {{ .Date.Format $dateFormat }}
     </h6>
     <p>
       {{- .Summary -}}

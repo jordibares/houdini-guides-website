@@ -5,6 +5,8 @@ weight: 3
 
 # Collaborating
 
-There are many ways to help, specially if you have a bit of time to either create content or maintain it. Of course donations are welcome but I rather get help to build fast and update material to stay fresh.
+{{< preamble >}}
+There are many ways to collaborate, make sure you understand what form of commitment you want to embark first.
+{{< /preamble >}}
 
-Please read the various sections and see if you fancy the journey.
+We will need people helping us creating and reviewing content, creating snapshots, video recordings and graphics. All of it will need you to use certain tools and procedures which will be very helpful in your future projects, so don't shy away, it is going to be fun.

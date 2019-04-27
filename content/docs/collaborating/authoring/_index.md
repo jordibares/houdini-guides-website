@@ -5,11 +5,15 @@ weight: 1
 
 # Authoring
 
-The information architecture, writting standards and technical infrastructure required forces us to have a bit of a protocol in place so we can produce as if it was the hand of one single person writting.
+{{< preamble >}}
+The information architecture, writting standards and technical infrastructure required forces us to have a bit of a protocol in place so we can produce as if it was the hand of one single person.
+{{< /preamble >}}
 
-For this reason I have assembled some basic rules to follow.
+## Configuring your machine
 
-## Configuring git in your local machine
+First of all, in order to collaborate you are going to need a few tools, most notably Git, Git-LFS and Hugo but also some infrastructure tools for your computer like Brew.
+
+## Authoring workflow
 
 The general workflow is to keep updating [git repository](https://github.com/jordibares/houdini-guides-website) stored at [github](https://github.com) using the fork/pull mechanism.
 
