@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ $dateFormat := default "2 January 2006" .Site.Params.BookDateFormat }}
+  {{ $paginator := .Paginate (where .Pages "Params.hidden" "ne" true) }}
+  {{ range sort .Paginator.Pages }}
+  <article class="markdown">
+    <h3>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h3>
+    <h6>
+      {{ .Date.Format $dateFormat }}
+    </h6>
+    <p>
+      {{- .Summary -}}
+      {{ if .Truncated }}
+        <a href="{{ .RelPermalink }}">...</a>
+      {{ end }}
+    </p>
+  </article>
+  {{ end }}
+  {{ template "_internal/pagination.html" . }}
+{{ end }}

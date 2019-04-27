@@ -47,7 +47,7 @@ params:
   # Configure the date format used on the pages
   # - In git information
   # - In blog posts
-  BookDateFormat: "2 January 2006, 15:04 MST"
+  BookDateFormat: "2 January 2006"
 
   # (Optional, default false) Show or hide site footer
   BookShowFooter: true

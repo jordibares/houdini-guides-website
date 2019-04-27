@@ -1,0 +1,16 @@
+{{ define "main" }}
+	{{ $dateFormat := default "January 2, 2006" .Site.Params.BookDateFormat }}
+	<header class="markdown">
+	  <h1>
+	  	{{ .Title }}
+	  </h1>
+	  <h6>
+	  	{{ .Date.Format $dateFormat }}
+	  </h6>
+	</header>
+	<article class="markdown">
+	  <p>
+	  	{{- .Content -}}
+	  </p>
+	</article>
+{{ end }}
