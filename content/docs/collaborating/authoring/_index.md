@@ -1,5 +1,5 @@
 ---
-title: "Authoring Workflow"
+title: "Authoring"
 weight: 1
 ---
 

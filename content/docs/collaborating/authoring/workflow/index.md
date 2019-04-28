@@ -1,5 +1,5 @@
 ---
-title: "Authoring Workflow"
+title: "Workflow"
 weight: 15
 
 categories: ["Collaborating"]

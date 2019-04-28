@@ -608,6 +608,33 @@ which renders like;
 
 ---
 
+### Mermaid Diagrams
+
+Sometimes you may want to add a diagram but of course, maintaining hand drawn diagrams is harder and the integration with GitHub is not that fun, for this reason I have provided access to [Mermaid](https://mermaidjs.github.io) diagraming.
+
+
+``` go
+{{ <mermaid align="left" style="drawn"> }}
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+{{ < /mermaid > }}
+```
+
+will render as
+
+{{<mermaid align="left" style="drawn">}}
+graph LR;
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+{{< /mermaid >}}
+
+---
+
 ### Import
 
 Import allows you to include external files in the document which is very helpful when dealing with very long scripts that you want to be able to download and execute later on.
